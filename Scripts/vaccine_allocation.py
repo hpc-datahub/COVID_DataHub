@@ -71,12 +71,17 @@ df = pfizer.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
 
 
 ## remove the US territory and federal entities rows
-to_rm = ['American Samoa', 'Federal Entities', 'Guam', 'Mariana Islands',\
-         'Marshall Islands', 'Micronesia', 'Palau', 'Puerto Rico',\
-         'U.S. Virgin Islands']
+list(df.jurisdiction)
+to_rm = ['American Samoa', 'American Samoa**', 'Federal Entities', 'Guam', \
+         'Guam**', 'Mariana Islands', 'Mariana Islands**', 'Marshall Islands',\
+         'Marshall Islands*', 'Micronesia', 'Micronesia*', 'Palau', 'Palau*',\
+         'Puerto Rico', 'U.S. Virgin Islands']
 to_rm_id = [df.index[df['jurisdiction']==x].tolist()[0] for x in to_rm]
 df['jurisdiction'][to_rm_id]
 df = df.drop(to_rm_id, axis=0)
+# combine separated rows
+df['jurisdiction'] = df['jurisdiction'].str.replace('[^\w\s]', '')
+df = df.groupby('jurisdiction',as_index=False).agg('sum')
 
 
 ## output to csv file
