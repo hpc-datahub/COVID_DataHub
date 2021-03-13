@@ -13,7 +13,7 @@ from datetime import datetime
 import re
 
 # set update date
-dt = '20210302'
+dt = '20210309'
 
 # set data file directory
 file_dir = '~/Documents/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
@@ -43,7 +43,7 @@ def read_data(filedir, brand, update_date):
     # combine two data frames
     df1 = df1.join(df2, how = 'outer')
     df1 = df1.drop(columns = 'federal_entities')
-    if brand == 'Moderna':
+    if brand in ['Moderna', 'Janssen']:
         df1 = df1.drop(columns = 'no_pfizer_because_ultra_cold_requirement')
     cols = df1.columns
     
@@ -102,9 +102,20 @@ moderna.index = range(moderna.shape[0])
 # reorder the columns according to date
 moderna = moderna[sorted(moderna.columns)]
 
+## Janssen
+dt = '20210311'
+janssen, janssen_cols = read_data(file_dir, 'Janssen', dt)
+# modify column names of dataframe
+janssen.columns = [edit_colname(x, 'janssen') for x in janssen.columns]
+janssen.insert(loc = 0, column = 'jurisdiction', value = janssen.index)
+janssen.index = range(janssen.shape[0])
+# reorder the columns according to date
+janssen = janssen[sorted(janssen.columns)]
+
 
 ## merge two dataframes
 df = pfizer.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
+df = df.merge(janssen, left_on='jurisdiction', right_on='jurisdiction')
 
 
 ## output to csv file

@@ -205,12 +205,15 @@ Proof of residency requirement for vaccination,Proof of residency requirement fo
 Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 jurisdiction,Jurisdiction,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv
-no_pfizer_because_ultra_cold_requirement_yyyymmdd,_No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv
-pfizer_allocation_dose1_yyyymmdd,_Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv
-pfizer_allocation_dose2_yyyymmdd,_Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv
+pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv
+pfizer_allocation_dose2_yyyymmdd,Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
 pfizer_receive_dose1_dose2_simultaneously_yyyymmdd,Pfizer: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
-pfizer_sovereign_nation_supplement_yyyymmdd,_Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
-moderna_allocation_dose1_yyyymmdd,_Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
-moderna_allocation_dose2_yyyymmdd,_Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
-moderna_receive_dose1_dose2_simultaneously_yyyymmdd,_Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
-moderna_sovereign_nation_supplement_yyyymmdd,_Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+pfizer_sovereign_nation_supplement_yyyymmdd,Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+moderna_allocation_dose1_yyyymmdd,Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+moderna_allocation_dose2_yyyymmdd,Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+moderna_receive_dose1_dose2_simultaneously_yyyymmdd,Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv
+janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
+janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
+janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
