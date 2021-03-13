@@ -94,30 +94,30 @@
 61,Age_65_74,Age 65-74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
 62,Shape__Area,Shape area,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
 63,Shape__Length,Shape length,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-64,dataQualityGrade_yyyymmdd,Quality of data grade,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-65,dateChecked_yyyymmdd,ISO 8601 date of the time we last visited their website.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-66,death_yyyymmdd,Total cumulative number of people that have died.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-67,deathIncrease_yyyymmdd,Increase in deaths on that day,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-68,hash_yyyymmdd,A unique ID changed every time the data updates. Survives a cache reset.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-69,hospitalized_yyyymmdd,Total cumulative number of people hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-70,hospitalizedCumulative_yyyymmdd,"Total number of individuals that have been hospitalized, including those that have been discharged.",https://covidtracking.com/api,medical_covidtracking.csv,,,,
-71,hospitalizedCurrently_yyyymmdd,Number of individuals currently hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-72,hospitalizedIncrease_yyyymmdd,Increase in hospitalizations on that day,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-73,inIcuCumulative_yyyymmdd,Total number of individuals that have been in the ICU.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-74,inIcuCurrently_yyyymmdd,Number of individuals currently in an ICU.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-75,lastUpdateEt_yyyymmdd,Time of last update (Eastern time),https://covidtracking.com/api,medical_covidtracking.csv,,,,
-76,negative_yyyymmdd,Total cumulative negative test results,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-77,negativeIncrease_yyyymmdd,Increase in negative tests on that day,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-78,onVentilatorCumulative_yyyymmdd,Total people who have been on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-79,onVentilatorCurrently_yyyymmdd,Number of people who are currently on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-80,pending_yyyymmdd,Tests that have been submitted to a lab but no results have been reported yet.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-81,posNeg_yyyymmdd,DEPRECATED Renamed to totalTestResults.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-82,positive_yyyymmdd,Total cumulative positive test results.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-83,positiveIncrease_yyyymmdd,Increase in positive cases on that day,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-84,recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-85,total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-86,totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv,,,,
-87,totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv,,,,
+64,dataQualityGrade_yyyymmdd,Quality of data grade,https://covidtracking.com/api,medical_covidtracking.csv,838.0,1255.0,20200113,20210305
+65,dateChecked_yyyymmdd,ISO 8601 date of the time we last visited their website.,https://covidtracking.com/api,medical_covidtracking.csv,1256.0,1673.0,20200113,20210305
+66,death_yyyymmdd,Total cumulative number of people that have died.,https://covidtracking.com/api,medical_covidtracking.csv,2092.0,3763.0,20200113,20210305
+67,deathIncrease_yyyymmdd,Increase in deaths on that day,https://covidtracking.com/api,medical_covidtracking.csv,2928.0,3345.0,20200113,20210305
+68,hash_yyyymmdd,A unique ID changed every time the data updates. Survives a cache reset.,https://covidtracking.com/api,medical_covidtracking.csv,4600.0,5017.0,20200113,20210305
+69,hospitalized_yyyymmdd,Total cumulative number of people hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,5018.0,7107.0,20200113,20210305
+70,hospitalizedCumulative_yyyymmdd,"Total number of individuals that have been hospitalized, including those that have been discharged.",https://covidtracking.com/api,medical_covidtracking.csv,5436.0,5853.0,20200113,20210305
+71,hospitalizedCurrently_yyyymmdd,Number of individuals currently hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,5854.0,6271.0,20200113,20210305
+72,hospitalizedIncrease_yyyymmdd,Increase in hospitalizations on that day,https://covidtracking.com/api,medical_covidtracking.csv,6690.0,7107.0,20200113,20210305
+73,inIcuCumulative_yyyymmdd,Total number of individuals that have been in the ICU.,https://covidtracking.com/api,medical_covidtracking.csv,7108.0,7525.0,20200113,20210305
+74,inIcuCurrently_yyyymmdd,Number of individuals currently in an ICU.,https://covidtracking.com/api,medical_covidtracking.csv,7526.0,7943.0,20200113,20210305
+75,lastUpdateEt_yyyymmdd,Time of last update (Eastern time),https://covidtracking.com/api,medical_covidtracking.csv,7944.0,8361.0,20200113,20210305
+76,negative_yyyymmdd,Total cumulative negative test results,https://covidtracking.com/api,medical_covidtracking.csv,8362.0,11287.0,20200113,20210305
+77,negativeIncrease_yyyymmdd,Increase in negative tests on that day,https://covidtracking.com/api,medical_covidtracking.csv,8780.0,9197.0,20200113,20210305
+78,onVentilatorCumulative_yyyymmdd,Total people who have been on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,11288.0,11705.0,20200113,20210305
+79,onVentilatorCurrently_yyyymmdd,Number of people who are currently on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,11706.0,12123.0,20200113,20210305
+80,pending_yyyymmdd,Tests that have been submitted to a lab but no results have been reported yet.,https://covidtracking.com/api,medical_covidtracking.csv,12124.0,12541.0,20200113,20210305
+81,posNeg_yyyymmdd,DEPRECATED Renamed to totalTestResults.,https://covidtracking.com/api,medical_covidtracking.csv,12542.0,12959.0,20200113,20210305
+82,positive_yyyymmdd,Total cumulative positive test results.,https://covidtracking.com/api,medical_covidtracking.csv,12960.0,16721.0,20200113,20210305
+83,positiveIncrease_yyyymmdd,Increase in positive cases on that day,https://covidtracking.com/api,medical_covidtracking.csv,13796.0,14213.0,20200113,20210305
+84,recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medical_covidtracking.csv,17140.0,17557.0,20200113,20210305
+85,total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv,17976.0,22573.0,20200113,20210305
+86,totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv,18812.0,20065.0,20200113,20210305
+87,totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv,19230.0,19647.0,20200113,20210305
 0,Unnamed: 0,Row number,,policy.csv,0.0,0.0,,
 1,stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,1.0,1.0,,
 2,stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,2.0,2.0,,
