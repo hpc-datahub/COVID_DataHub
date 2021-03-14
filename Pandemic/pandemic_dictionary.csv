@@ -1,200 +1,200 @@
 ,variable name,label,source,file,start column,end column,start date,end date
-0,Unnamed: 0,Row number,,casesAndDeaths.csv,0.0,0.0,,
-1,stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,1.0,1.0,,
-2,stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,2.0,2.0,,
-3,ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,3.0,3.0,,
-4,ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,4.0,4.0,,
-5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5.0,5.0,,
-6,confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6.0,420.0,20200122,20210311
-7,deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,421.0,835.0,20200122,20210311
-0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6.0,387.0,20200215,20210302
-1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,388.0,1151.0,20200215,20210302
-2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1152.0,1915.0,20200215,20210302
-3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1916.0,2297.0,20200215,20210302
-4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2298.0,3061.0,20200215,20210302
-5,county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,6.0,6.0,2018,2018
-6,covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7.0,96.0,20200224,20200523
-7,daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,97.0,186.0,20200224,20200523
-8,daily_visitation_diff_yyyymmdd,Change of visits to non-essential retail and services from baseline (avg. visits for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,187.0,276.0,20200224,20200523
-9,encounters_rate_yyyymmdd,Rate of unique human encounters per Km² relative to national pre-Covid-19 baseline (median of the metric on a country level in 4 weeks before March 8th).,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,277.0,366.0,20200224,20200523
-10,grade_distance_yyyymmdd,"A, B, C, D or F score describing county's reduction in average distance traveled",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,367.0,906.0,20200224,20200523
-11,grade_encounters_yyyymmdd,"A, B, C, D, or F score describing rate of encounters as a fraction of national pre-Covid-19 baseline.",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,457.0,996.0,20200224,20200523
-12,grade_total_yyyymmdd,"A, A-, B, B-, C, C-, D, D- or F score describing county's social distancing",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,547.0,1086.0,20200224,20200523
-13,grade_visitation_yyyymmdd,"A, B, C, D or F score describing county's reduction in non-essential visitation",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,637.0,1176.0,20200224,20200523
-14,last_updated_yyyymmdd,Timestamp of when this data was processed and updated ,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,727.0,816.0,20200224,20200523
-15,n_grade_distance_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,817.0,906.0,20200224,20200523
-16,n_grade_encounters_yyyymmdd,Corresponding number for letter grade where A=5 and F=1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,907.0,996.0,20200224,20200523
-17,n_grade_total_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,997.0,1086.0,20200224,20200523
-18,n_grade_visitation_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1087.0,1176.0,20200224,20200523
-19,weekday_yyyymmdd,Weekday,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1177.0,1266.0,20200224,20200523
-20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6.0,705.0,20200301,20210303
-21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,356.0,705.0,20200301,20210303
-22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,706.0,1055.0,20200301,20210303
-0,FatalityRa,Fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-1,Confirmedb,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-2,DeathsbyPo,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-3,PCTPOVALL_,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-4,Unemployme,Unemployment rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-5,Med_HH_Inc,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-6,State_Fata,State fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-7,DateChecke,Date checked,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-8,EM_type,Type of emergency policy under effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-9,EM_date,Date of emergency policy into effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-10,EM_notes,Further notes about emergency policy,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-11,url,URL for the dashboard (visual charts and graphs),https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-12,Thumbnail,Image thumbnail for the data,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-13,Confirmed,Coonfirmed cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-14,Deaths,Confirmed deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-15,Age_85,People with age 85+,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-16,Age_80_84,People between 80 to 84 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-17,Age_75_79,People between 75 to 79 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-18,Age_70_74,People between 70 to 74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-19,Age_65_69,People between 65 to 69 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-20,Beds_Licen,maximum number of beds for which a hospital holds a license to operate; ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-21,Beds_Staff,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-22,Beds_ICU,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-23,Ventilator,People on ventilator,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-24,POP_ESTIMA,Estimated population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-25,POVALL_201,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-26,Unemployed,No. of unemployed people,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-27,Median_Hou,Median Household income,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-28,Recovered,Recovered cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-29,Active,Active cases ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-30,State_Conf,Confirmed cases in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-31,State_Deat,Confirmed deaths in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-32,State_Reco,Recoveries in county,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-33,State_Test,No. of tests administered in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-34,AgedPop,No of people who are more than 65 years of age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-35,NewCases,New cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-36,NewDeaths,New deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-37,TotalPop,Total county population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-38,NonHispWhP,Non hispanic white population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-39,BlackPop,Black population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-40,AmIndop,American Indian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-41,AsianPop,Asian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-42,PacIslPop,Pacific Island population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-43,OtherPop,Other population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-44,TwoMorPop,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-45,HispPop,Hispanic pooulation,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-46,Wh_Alone,White alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-47,Bk_Alone,Black alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-48,AI_Alone,American Indian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-49,As_Alone,Asian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-50,NH_Alone,NH alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-51,SO_Alone,SO alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-52,Two_More,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-53,Not_Hisp,Not hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-54,Age_Less15,Age <15 year,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-55,Age_15_24,Age 15-24 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-56,Age_25_34,Age 25-34 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-57,Age_Over75,Age >75 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-58,Agetotal,Total age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-59,NonHisp,Non hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-60,Age_35_64,Age 35-64 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-61,Age_65_74,Age 65-74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-62,Shape__Area,Shape area,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-63,Shape__Length,Shape length,https://coronavirus.jhu.edu/us-map,medical_govex.csv,,,,
-64,dataQualityGrade_yyyymmdd,Quality of data grade,https://covidtracking.com/api,medical_covidtracking.csv,838.0,1255.0,20200113,20210305
-65,dateChecked_yyyymmdd,ISO 8601 date of the time we last visited their website.,https://covidtracking.com/api,medical_covidtracking.csv,1256.0,1673.0,20200113,20210305
-66,death_yyyymmdd,Total cumulative number of people that have died.,https://covidtracking.com/api,medical_covidtracking.csv,2092.0,3763.0,20200113,20210305
-67,deathIncrease_yyyymmdd,Increase in deaths on that day,https://covidtracking.com/api,medical_covidtracking.csv,2928.0,3345.0,20200113,20210305
-68,hash_yyyymmdd,A unique ID changed every time the data updates. Survives a cache reset.,https://covidtracking.com/api,medical_covidtracking.csv,4600.0,5017.0,20200113,20210305
-69,hospitalized_yyyymmdd,Total cumulative number of people hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,5018.0,7107.0,20200113,20210305
-70,hospitalizedCumulative_yyyymmdd,"Total number of individuals that have been hospitalized, including those that have been discharged.",https://covidtracking.com/api,medical_covidtracking.csv,5436.0,5853.0,20200113,20210305
-71,hospitalizedCurrently_yyyymmdd,Number of individuals currently hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,5854.0,6271.0,20200113,20210305
-72,hospitalizedIncrease_yyyymmdd,Increase in hospitalizations on that day,https://covidtracking.com/api,medical_covidtracking.csv,6690.0,7107.0,20200113,20210305
-73,inIcuCumulative_yyyymmdd,Total number of individuals that have been in the ICU.,https://covidtracking.com/api,medical_covidtracking.csv,7108.0,7525.0,20200113,20210305
-74,inIcuCurrently_yyyymmdd,Number of individuals currently in an ICU.,https://covidtracking.com/api,medical_covidtracking.csv,7526.0,7943.0,20200113,20210305
-75,lastUpdateEt_yyyymmdd,Time of last update (Eastern time),https://covidtracking.com/api,medical_covidtracking.csv,7944.0,8361.0,20200113,20210305
-76,negative_yyyymmdd,Total cumulative negative test results,https://covidtracking.com/api,medical_covidtracking.csv,8362.0,11287.0,20200113,20210305
-77,negativeIncrease_yyyymmdd,Increase in negative tests on that day,https://covidtracking.com/api,medical_covidtracking.csv,8780.0,9197.0,20200113,20210305
-78,onVentilatorCumulative_yyyymmdd,Total people who have been on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,11288.0,11705.0,20200113,20210305
-79,onVentilatorCurrently_yyyymmdd,Number of people who are currently on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,11706.0,12123.0,20200113,20210305
-80,pending_yyyymmdd,Tests that have been submitted to a lab but no results have been reported yet.,https://covidtracking.com/api,medical_covidtracking.csv,12124.0,12541.0,20200113,20210305
-81,posNeg_yyyymmdd,DEPRECATED Renamed to totalTestResults.,https://covidtracking.com/api,medical_covidtracking.csv,12542.0,12959.0,20200113,20210305
-82,positive_yyyymmdd,Total cumulative positive test results.,https://covidtracking.com/api,medical_covidtracking.csv,12960.0,16721.0,20200113,20210305
-83,positiveIncrease_yyyymmdd,Increase in positive cases on that day,https://covidtracking.com/api,medical_covidtracking.csv,13796.0,14213.0,20200113,20210305
-84,recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medical_covidtracking.csv,17140.0,17557.0,20200113,20210305
-85,total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv,17976.0,22573.0,20200113,20210305
-86,totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv,18812.0,20065.0,20200113,20210305
-87,totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv,19230.0,19647.0,20200113,20210305
-0,Unnamed: 0,Row number,,policy.csv,0.0,0.0,,
-1,stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,1.0,1.0,,
-2,stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,2.0,2.0,,
-3,ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,3.0,3.0,,
-4,ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,4.0,4.0,,
-5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,5.0,5.0,,
-6,Restriction details include,Details about restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,6.0,6.0,,
-7,Statewide mandated stay at home order?,Has the state mandated stay at home order,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,7.0,7.0,,
-8,Urgency of restrictions,How urgent are the restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,8.0,8.0,,
-9,Effective date of executive restriction detailed,Date of emergency policy into effect,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,9.0,9.0,,
-10,State of emergency,Date emergency was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,12.0,12.0,,
-11,Closed day cares,Date when daycare were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,14.0,14.0,,
-12,Date banned visitors to nursing homes,Date when nursing home visitors were banned,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,16.0,16.0,,
-13,Stay at home/ shelter in place,Date when stay at home was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,17.0,17.0,,
-14,End/relax stay at home/shelter in place,,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,19.0,19.0,,
-15,Religious Gatherings Exempt Without Clear Social Distance Mandate*,Is religious gatherings open / closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,22.0,22.0,,
-16,Mandate face mask use by all individuals in public spaces,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,23.0,23.0,,
-17,Mandate face mask use by employees in public-facing businesses,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,28.0,28.0,,
-18,Alcohol/Liquor Stores Open,Are the alcohol and liquor stores open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,31.0,31.0,,
-19,Keep Firearms Sellers Open,Are the firearm sellers open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,34.0,34.0,,
-20,Closed restaurants except take out,Are restaurants closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,35.0,35.0,,
-21,Reopen restaurants,When restaurants reopen,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,36.0,36.0,,
-22,Closed gyms,Are gyms closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,38.0,38.0,,
-23,Closed movie theaters,Are movie theatres closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,40.0,40.0,,
-24,Reopened movie theaters,When movie theatres are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,41.0,41.0,,
-25,Stop Initiation of Evictions overall or due to COVID related issues,Stop Initiation of Evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,92.0,92.0,,
-26,Stop enforcement of evictions overall or due to COVID related issues,Stop enforcement of evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,94.0,94.0,,
-27,Renter grace period or use of security deposit to pay rent,Renter grace period or use of security deposit to pay rent,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,101.0,101.0,,
-28,Order freezing utility shut offs,Order freezing utility shut offs,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,102.0,102.0,,
-29,Froze mortgage payments,Froze mortgage payments,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,115.0,115.0,,
-30,Modify Medicaid requirements with 1135 waivers (date of CMS approval),Modify Medicaid requirements with 1135 waivers (date of CMS approval),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,120.0,120.0,,
-31,Reopened ACA enrollment using a special enrollment period,Reopened ACA enrollment using a special enrollment period,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,121.0,121.0,,
-32,Allow audio-only telehealth,Allow audio-only telehealth,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,123.0,123.0,,
-33,Suspended elective medical/dental procedures,Suspended elective medical/dental procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,144.0,144.0,,
-34,Resumed elective medical procedures,Resumed elective medical procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,145.0,145.0,,
-35,Waived one week waiting period for unemployment insurance,Waived one week waiting period for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,149.0,149.0,,
-36,Waive work search requirement for unemployment insurance,Waive work search requirement for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,151.0,151.0,,
-37,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,155.0,155.0,,
-38,Extend the amount of time an individual can be on unemployment insurance,Extend the amount of time an individual can be on unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,156.0,156.0,,
-39,Paid sick leave,Is Paid sick leave present,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,177.0,177.0,,
-40,Vaccine allocation phase: Frontline Healthcare Workers,Vaccine allocation phase: Frontline Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,65.0,65.0,,
-41,Vaccine allocation phase: Healthcare Service Workers,Vaccine allocation phase: Healthcare Service Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,66.0,66.0,,
-42,Vaccine allocation phase: Home Healthcare Workers,Vaccine allocation phase: Home Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,67.0,67.0,,
-43,Vaccine allocation phase: Additional Healthcare Workers,Vaccine allocation phase: Additional Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,68.0,68.0,,
-44,Vaccine allocation phase: Long-term Care Residents,Vaccine allocation phase: Long-term Care Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,69.0,69.0,,
-45,Vaccine allocation phase: EMS Providers,Vaccine allocation phase: EMS Providers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,70.0,70.0,,
-46,Vaccine allocation phase: Firefighters,Vaccine allocation phase: Firefighters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,71.0,71.0,,
-47,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,72.0,72.0,,
-48,Vaccine allocation phase: Congregate Setting Residents,Vaccine allocation phase: Congregate Setting Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,73.0,73.0,,
-49,Vaccine allocation phase: Correctional Staff,Vaccine allocation phase: Correctional Staff,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,74.0,74.0,,
-50,Vaccine allocation phase: Adults Ages 75+,Vaccine allocation phase: Adults Ages 75+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,75.0,75.0,,
-51,Vaccine allocation phase: Adults Ages 65+,Vaccine allocation phase: Adults Ages 65+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,76.0,76.0,,
-52,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,77.0,77.0,,
-53,Vaccine allocation phase: Pre-K-12 School Employees,Vaccine allocation phase: Pre-K-12 School Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,78.0,78.0,,
-54,Vaccine allocation phase: Higher Education Employees,Vaccine allocation phase: Higher Education Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,79.0,79.0,,
-55,Vaccine allocation phase: Public Transit Workers,Vaccine allocation phase: Public Transit Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,80.0,80.0,,
-56,Vaccine allocation phase: Food Supply Workers,Vaccine allocation phase: Food Supply Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,81.0,81.0,,
-57,Vaccine allocation phase: Grocery Store Workers,Vaccine allocation phase: Grocery Store Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,82.0,82.0,,
-58,Vaccine allocation phase: Frontline Essential Workers,Vaccine allocation phase: Frontline Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,83.0,83.0,,
-59,Vaccine allocation phase: Additional Essential Workers,Vaccine allocation phase: Additional Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,84.0,84.0,,
-60,Vaccine allocation phase: General Public,Vaccine allocation phase: General Public,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,85.0,85.0,,
-61,Prioritize older adults in earlier phase than essential workers,Prioritize older adults in earlier phase than essential workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,86.0,86.0,,
-62,Proof of work eligibility requirement for vaccination,Proof of work eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,87.0,87.0,,
-63,Proof of age eligibility requirement for vaccination,Proof of age eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,88.0,88.0,,
-64,Proof of residency requirement for vaccination,Proof of residency requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,89.0,89.0,,
-65,Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,90.0,90.0,,
-66,Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,91.0,91.0,,
-0,jurisdiction,Jurisdiction,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,0.0,0.0,-1,-1
-1,no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,1.0,14.0,20201214,20210315
-2,pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv,15.0,28.0,20201214,20210315
-3,pfizer_allocation_dose2_yyyymmdd,Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,29.0,42.0,20201214,20210315
-4,pfizer_receive_dose1_dose2_simultaneously_yyyymmdd,Pfizer: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,43.0,56.0,20201214,20210315
-5,pfizer_sovereign_nation_supplement_yyyymmdd,Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,57.0,70.0,20201214,20210315
-6,moderna_allocation_dose1_yyyymmdd,Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,71.0,83.0,20201221,20210315
-7,moderna_allocation_dose2_yyyymmdd,Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,84.0,96.0,20201221,20210315
-8,moderna_receive_dose1_dose2_simultaneously_yyyymmdd,Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,97.0,109.0,20201221,20210315
-9,moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,110.0,122.0,20201221,20210315
-10,janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,123.0,124.0,20210301,20210315
-11,janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,125.0,126.0,20210301,20210315
-12,janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,127.0,128.0,20210301,20210315
+0,Unnamed: 0,Row number,,casesAndDeaths.csv,0,0,,
+1,stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,1,1,,
+2,stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,2,2,,
+3,ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,3,3,,
+4,ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,4,4,,
+5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,,
+6,confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,420,20200122,20210311
+7,deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,421,835,20200122,20210311
+0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6,387,20200215,20210302
+1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,388,1151,20200215,20210302
+2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1152,1915,20200215,20210302
+3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1916,2297,20200215,20210302
+4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2298,3061,20200215,20210302
+5,county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,6,6,2018,2018
+6,covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7,96,20200224,20200523
+7,daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,97,186,20200224,20200523
+8,daily_visitation_diff_yyyymmdd,Change of visits to non-essential retail and services from baseline (avg. visits for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,187,276,20200224,20200523
+9,encounters_rate_yyyymmdd,Rate of unique human encounters per Km² relative to national pre-Covid-19 baseline (median of the metric on a country level in 4 weeks before March 8th).,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,277,366,20200224,20200523
+10,grade_distance_yyyymmdd,"A, B, C, D or F score describing county's reduction in average distance traveled",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,367,906,20200224,20200523
+11,grade_encounters_yyyymmdd,"A, B, C, D, or F score describing rate of encounters as a fraction of national pre-Covid-19 baseline.",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,457,996,20200224,20200523
+12,grade_total_yyyymmdd,"A, A-, B, B-, C, C-, D, D- or F score describing county's social distancing",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,547,1086,20200224,20200523
+13,grade_visitation_yyyymmdd,"A, B, C, D or F score describing county's reduction in non-essential visitation",https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,637,1176,20200224,20200523
+14,last_updated_yyyymmdd,Timestamp of when this data was processed and updated ,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,727,816,20200224,20200523
+15,n_grade_distance_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,817,906,20200224,20200523
+16,n_grade_encounters_yyyymmdd,Corresponding number for letter grade where A=5 and F=1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,907,996,20200224,20200523
+17,n_grade_total_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,997,1086,20200224,20200523
+18,n_grade_visitation_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1087,1176,20200224,20200523
+19,weekday_yyyymmdd,Weekday,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1177,1266,20200224,20200523
+20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6,705,20200301,20210303
+21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,356,705,20200301,20210303
+22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,706,1055,20200301,20210303
+0,FatalityRa,Fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,6,6,-1,-1
+1,Confirmedb,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,7,7,-1,-1
+2,DeathsbyPo,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,8,8,-1,-1
+3,PCTPOVALL_,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,9,9,-1,-1
+4,Unemployme,Unemployment rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,10,10,-1,-1
+5,Med_HH_Inc,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,11,11,-1,-1
+6,State_Fata,State fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,12,12,-1,-1
+7,DateChecke,Date checked,https://coronavirus.jhu.edu/us-map,medical_govex.csv,13,13,-1,-1
+8,EM_type,Type of emergency policy under effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,14,14,-1,-1
+9,EM_date,Date of emergency policy into effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,15,15,-1,-1
+10,EM_notes,Further notes about emergency policy,https://coronavirus.jhu.edu/us-map,medical_govex.csv,16,16,-1,-1
+11,url,URL for the dashboard (visual charts and graphs),https://coronavirus.jhu.edu/us-map,medical_govex.csv,17,17,-1,-1
+12,Thumbnail,Image thumbnail for the data,https://coronavirus.jhu.edu/us-map,medical_govex.csv,18,18,-1,-1
+13,Confirmed,Coonfirmed cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,7,19,-1,-1
+14,Deaths,Confirmed deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,8,42,-1,-1
+15,Age_85,People with age 85+,https://coronavirus.jhu.edu/us-map,medical_govex.csv,21,21,-1,-1
+16,Age_80_84,People between 80 to 84 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,22,22,-1,-1
+17,Age_75_79,People between 75 to 79 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,23,23,-1,-1
+18,Age_70_74,People between 70 to 74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,24,24,-1,-1
+19,Age_65_69,People between 65 to 69 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,25,25,-1,-1
+20,Beds_Licen,maximum number of beds for which a hospital holds a license to operate; ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,26,26,-1,-1
+21,Beds_Staff,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,27,27,-1,-1
+22,Beds_ICU,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,28,28,-1,-1
+23,Ventilator,People on ventilator,https://coronavirus.jhu.edu/us-map,medical_govex.csv,29,29,-1,-1
+24,POP_ESTIMA,Estimated population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,30,30,-1,-1
+25,POVALL_201,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,31,31,201,201
+26,Unemployed,No. of unemployed people,https://coronavirus.jhu.edu/us-map,medical_govex.csv,32,32,-1,-1
+27,Median_Hou,Median Household income,https://coronavirus.jhu.edu/us-map,medical_govex.csv,33,33,-1,-1
+28,Recovered,Recovered cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,34,34,-1,-1
+29,Active,Active cases ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,35,35,-1,-1
+30,State_Conf,Confirmed cases in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,36,36,-1,-1
+31,State_Deat,Confirmed deaths in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,37,37,-1,-1
+32,State_Reco,Recoveries in county,https://coronavirus.jhu.edu/us-map,medical_govex.csv,38,38,-1,-1
+33,State_Test,No. of tests administered in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,39,39,-1,-1
+34,AgedPop,No of people who are more than 65 years of age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,40,40,-1,-1
+35,NewCases,New cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,41,41,-1,-1
+36,NewDeaths,New deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,42,42,-1,-1
+37,TotalPop,Total county population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,43,43,-1,-1
+38,NonHispWhP,Non hispanic white population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,44,44,-1,-1
+39,BlackPop,Black population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,45,45,-1,-1
+40,AmIndop,American Indian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,46,46,-1,-1
+41,AsianPop,Asian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,47,47,-1,-1
+42,PacIslPop,Pacific Island population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,48,48,-1,-1
+43,OtherPop,Other population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,49,49,-1,-1
+44,TwoMorPop,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,50,50,-1,-1
+45,HispPop,Hispanic pooulation,https://coronavirus.jhu.edu/us-map,medical_govex.csv,51,51,-1,-1
+46,Wh_Alone,White alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,52,52,-1,-1
+47,Bk_Alone,Black alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,53,53,-1,-1
+48,AI_Alone,American Indian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,54,54,-1,-1
+49,As_Alone,Asian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,55,55,-1,-1
+50,NH_Alone,NH alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,56,56,-1,-1
+51,SO_Alone,SO alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,57,57,-1,-1
+52,Two_More,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,58,58,-1,-1
+53,Not_Hisp,Not hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,59,59,-1,-1
+54,Age_Less15,Age <15 year,https://coronavirus.jhu.edu/us-map,medical_govex.csv,60,60,-1,-1
+55,Age_15_24,Age 15-24 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,61,61,-1,-1
+56,Age_25_34,Age 25-34 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,62,62,-1,-1
+57,Age_Over75,Age >75 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,63,63,-1,-1
+58,Agetotal,Total age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,64,64,-1,-1
+59,NonHisp,Non hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,44,65,-1,-1
+60,Age_35_64,Age 35-64 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,66,66,-1,-1
+61,Age_65_74,Age 65-74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,67,67,-1,-1
+62,Shape__Area,Shape area,https://coronavirus.jhu.edu/us-map,medical_govex.csv,91,91,-1,-1
+63,Shape__Length,Shape length,https://coronavirus.jhu.edu/us-map,medical_govex.csv,92,92,-1,-1
+64,dataQualityGrade_yyyymmdd,Quality of data grade,https://covidtracking.com/api,medical_covidtracking.csv,18063,18482,20200113,20210307
+65,dateChecked_yyyymmdd,ISO 8601 date of the time we last visited their website.,https://covidtracking.com/api,medical_covidtracking.csv,7983,8402,20200113,20210307
+66,death_yyyymmdd,Total cumulative number of people that have died.,https://covidtracking.com/api,medical_covidtracking.csv,6723,18902,20200113,20210307
+67,deathIncrease_yyyymmdd,Increase in deaths on that day,https://covidtracking.com/api,medical_covidtracking.csv,18483,18902,20200113,20210307
+68,hash_yyyymmdd,A unique ID changed every time the data updates. Survives a cache reset.,https://covidtracking.com/api,medical_covidtracking.csv,19323,19742,20200113,20210307
+69,hospitalized_yyyymmdd,Total cumulative number of people hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,2523,19322,20200113,20210307
+70,hospitalizedCumulative_yyyymmdd,"Total number of individuals that have been hospitalized, including those that have been discharged.",https://covidtracking.com/api,medical_covidtracking.csv,2943,3362,20200113,20210307
+71,hospitalizedCurrently_yyyymmdd,Number of individuals currently hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,2523,2942,20200113,20210307
+72,hospitalizedIncrease_yyyymmdd,Increase in hospitalizations on that day,https://covidtracking.com/api,medical_covidtracking.csv,18903,19322,20200113,20210307
+73,inIcuCumulative_yyyymmdd,Total number of individuals that have been in the ICU.,https://covidtracking.com/api,medical_covidtracking.csv,3783,4202,20200113,20210307
+74,inIcuCurrently_yyyymmdd,Number of individuals currently in an ICU.,https://covidtracking.com/api,medical_covidtracking.csv,3363,3782,20200113,20210307
+75,lastUpdateEt_yyyymmdd,Time of last update (Eastern time),https://covidtracking.com/api,medical_covidtracking.csv,5463,5882,20200113,20210307
+76,negative_yyyymmdd,Total cumulative negative test results,https://covidtracking.com/api,medical_covidtracking.csv,843,21002,20200113,20210307
+77,negativeIncrease_yyyymmdd,Increase in negative tests on that day,https://covidtracking.com/api,medical_covidtracking.csv,16383,16802,20200113,20210307
+78,onVentilatorCumulative_yyyymmdd,Total people who have been on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,4623,5042,20200113,20210307
+79,onVentilatorCurrently_yyyymmdd,Number of people who are currently on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,4203,4622,20200113,20210307
+80,pending_yyyymmdd,Tests that have been submitted to a lab but no results have been reported yet.,https://covidtracking.com/api,medical_covidtracking.csv,1263,1682,20200113,20210307
+81,posNeg_yyyymmdd,DEPRECATED Renamed to totalTestResults.,https://covidtracking.com/api,medical_covidtracking.csv,17643,18062,20200113,20210307
+82,positive_yyyymmdd,Total cumulative positive test results.,https://covidtracking.com/api,medical_covidtracking.csv,3,21422,20200113,20210307
+83,positiveIncrease_yyyymmdd,Increase in positive cases on that day,https://covidtracking.com/api,medical_covidtracking.csv,15963,16382,20200113,20210307
+84,recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medical_covidtracking.csv,5043,5462,20200113,20210307
+85,total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv,1683,17642,20200113,20210307
+86,totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv,1683,17642,20200113,20210307
+87,totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv,17223,17642,20200113,20210307
+0,Unnamed: 0,Row number,,policy.csv,0,0,,
+1,stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,1,1,,
+2,stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,2,2,,
+3,ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,3,3,,
+4,ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,4,4,,
+5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv,5,5,,
+6,Restriction details include,Details about restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,6,6,,
+7,Statewide mandated stay at home order?,Has the state mandated stay at home order,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,7,7,,
+8,Urgency of restrictions,How urgent are the restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,8,8,,
+9,Effective date of executive restriction detailed,Date of emergency policy into effect,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,9,9,,
+10,State of emergency,Date emergency was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,12,12,,
+11,Closed day cares,Date when daycare were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,14,14,,
+12,Date banned visitors to nursing homes,Date when nursing home visitors were banned,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,16,16,,
+13,Stay at home/ shelter in place,Date when stay at home was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,17,17,,
+14,End/relax stay at home/shelter in place,,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,19,19,,
+15,Religious Gatherings Exempt Without Clear Social Distance Mandate*,Is religious gatherings open / closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,22,22,,
+16,Mandate face mask use by all individuals in public spaces,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,23,23,,
+17,Mandate face mask use by employees in public-facing businesses,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,28,28,,
+18,Alcohol/Liquor Stores Open,Are the alcohol and liquor stores open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,31,31,,
+19,Keep Firearms Sellers Open,Are the firearm sellers open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,34,34,,
+20,Closed restaurants except take out,Are restaurants closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,35,35,,
+21,Reopen restaurants,When restaurants reopen,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,36,36,,
+22,Closed gyms,Are gyms closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,38,38,,
+23,Closed movie theaters,Are movie theatres closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,40,40,,
+24,Reopened movie theaters,When movie theatres are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,41,41,,
+25,Stop Initiation of Evictions overall or due to COVID related issues,Stop Initiation of Evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,92,92,,
+26,Stop enforcement of evictions overall or due to COVID related issues,Stop enforcement of evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,94,94,,
+27,Renter grace period or use of security deposit to pay rent,Renter grace period or use of security deposit to pay rent,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,101,101,,
+28,Order freezing utility shut offs,Order freezing utility shut offs,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,102,102,,
+29,Froze mortgage payments,Froze mortgage payments,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,115,115,,
+30,Modify Medicaid requirements with 1135 waivers (date of CMS approval),Modify Medicaid requirements with 1135 waivers (date of CMS approval),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,120,120,,
+31,Reopened ACA enrollment using a special enrollment period,Reopened ACA enrollment using a special enrollment period,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,121,121,,
+32,Allow audio-only telehealth,Allow audio-only telehealth,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,123,123,,
+33,Suspended elective medical/dental procedures,Suspended elective medical/dental procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,144,144,,
+34,Resumed elective medical procedures,Resumed elective medical procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,145,145,,
+35,Waived one week waiting period for unemployment insurance,Waived one week waiting period for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,149,149,,
+36,Waive work search requirement for unemployment insurance,Waive work search requirement for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,151,151,,
+37,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,155,155,,
+38,Extend the amount of time an individual can be on unemployment insurance,Extend the amount of time an individual can be on unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,156,156,,
+39,Paid sick leave,Is Paid sick leave present,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,177,177,,
+40,Vaccine allocation phase: Frontline Healthcare Workers,Vaccine allocation phase: Frontline Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,65,65,,
+41,Vaccine allocation phase: Healthcare Service Workers,Vaccine allocation phase: Healthcare Service Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,66,66,,
+42,Vaccine allocation phase: Home Healthcare Workers,Vaccine allocation phase: Home Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,67,67,,
+43,Vaccine allocation phase: Additional Healthcare Workers,Vaccine allocation phase: Additional Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,68,68,,
+44,Vaccine allocation phase: Long-term Care Residents,Vaccine allocation phase: Long-term Care Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,69,69,,
+45,Vaccine allocation phase: EMS Providers,Vaccine allocation phase: EMS Providers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,70,70,,
+46,Vaccine allocation phase: Firefighters,Vaccine allocation phase: Firefighters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,71,71,,
+47,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,72,72,,
+48,Vaccine allocation phase: Congregate Setting Residents,Vaccine allocation phase: Congregate Setting Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,73,73,,
+49,Vaccine allocation phase: Correctional Staff,Vaccine allocation phase: Correctional Staff,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,74,74,,
+50,Vaccine allocation phase: Adults Ages 75+,Vaccine allocation phase: Adults Ages 75+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,75,75,,
+51,Vaccine allocation phase: Adults Ages 65+,Vaccine allocation phase: Adults Ages 65+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,76,76,,
+52,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,77,77,,
+53,Vaccine allocation phase: Pre-K-12 School Employees,Vaccine allocation phase: Pre-K-12 School Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,78,78,,
+54,Vaccine allocation phase: Higher Education Employees,Vaccine allocation phase: Higher Education Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,79,79,,
+55,Vaccine allocation phase: Public Transit Workers,Vaccine allocation phase: Public Transit Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,80,80,,
+56,Vaccine allocation phase: Food Supply Workers,Vaccine allocation phase: Food Supply Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,81,81,,
+57,Vaccine allocation phase: Grocery Store Workers,Vaccine allocation phase: Grocery Store Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,82,82,,
+58,Vaccine allocation phase: Frontline Essential Workers,Vaccine allocation phase: Frontline Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,83,83,,
+59,Vaccine allocation phase: Additional Essential Workers,Vaccine allocation phase: Additional Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,84,84,,
+60,Vaccine allocation phase: General Public,Vaccine allocation phase: General Public,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,85,85,,
+61,Prioritize older adults in earlier phase than essential workers,Prioritize older adults in earlier phase than essential workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,86,86,,
+62,Proof of work eligibility requirement for vaccination,Proof of work eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,87,87,,
+63,Proof of age eligibility requirement for vaccination,Proof of age eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,88,88,,
+64,Proof of residency requirement for vaccination,Proof of residency requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,89,89,,
+65,Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,90,90,,
+66,Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,91,91,,
+0,jurisdiction,Jurisdiction,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,0,0,-1,-1
+1,no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,1,14,20201214,20210315
+2,pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv,15,28,20201214,20210315
+3,pfizer_allocation_dose2_yyyymmdd,Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,29,42,20201214,20210315
+4,pfizer_receive_dose1_dose2_simultaneously_yyyymmdd,Pfizer: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,43,56,20201214,20210315
+5,pfizer_sovereign_nation_supplement_yyyymmdd,Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,57,70,20201214,20210315
+6,moderna_allocation_dose1_yyyymmdd,Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,71,83,20201221,20210315
+7,moderna_allocation_dose2_yyyymmdd,Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,84,96,20201221,20210315
+8,moderna_receive_dose1_dose2_simultaneously_yyyymmdd,Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,97,109,20201221,20210315
+9,moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,110,122,20201221,20210315
+10,janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,123,124,20210301,20210315
+11,janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,125,126,20210301,20210315
+12,janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,127,128,20210301,20210315
