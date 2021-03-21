@@ -113,10 +113,6 @@ janssen = janssen[sorted(janssen.columns)]
 
 
 ## merge fips and the three dataframes
-#df = pd.read_csv('~/Documents/HPC_datahub/Raw data/state_territory_fips.txt',\
-#                 sep = '|', usecols = [0, 1, 2])
-#df = df.rename(columns = {'STATE': 'stfips', 'STUSAB': 'stabbr', 'STATE_NAME': 'stname'})
-#df.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/fips/state_territory_fips.csv')
 df = pd.read_csv('~/Documents/COVID_DataHub/Pandemic/fips/state_territory_fips.csv')
 df = df.merge(pfizer, left_on = 'stname', right_on = 'jurisdiction')
 df = df.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
@@ -124,5 +120,5 @@ df = df.merge(janssen, left_on='jurisdiction', right_on='jurisdiction')
 
 
 ## output to csv file
-df.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/vaccine_allocation.csv', index=False)
+df.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/vaccine_allocation.csv', index = False)
 
