@@ -103,7 +103,6 @@ moderna.index = range(moderna.shape[0])
 moderna = moderna[sorted(moderna.columns)]
 
 ## Janssen
-dt = '20210311'
 janssen, janssen_cols = read_data(file_dir, 'Janssen', dt)
 # modify column names of dataframe
 janssen.columns = [edit_colname(x, 'janssen') for x in janssen.columns]
@@ -113,11 +112,17 @@ janssen.index = range(janssen.shape[0])
 janssen = janssen[sorted(janssen.columns)]
 
 
-## merge two dataframes
-df = pfizer.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
+## merge fips and the three dataframes
+#df = pd.read_csv('~/Documents/HPC_datahub/Raw data/state_territory_fips.txt',\
+#                 sep = '|', usecols = [0, 1, 2])
+#df = df.rename(columns = {'STATE': 'stfips', 'STUSAB': 'stabbr', 'STATE_NAME': 'stname'})
+#df.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/fips/state_territory_fips.csv')
+df = pd.read_csv('~/Documents/COVID_DataHub/Pandemic/fips/state_territory_fips.csv')
+df = df.merge(pfizer, left_on = 'stname', right_on = 'jurisdiction')
+df = df.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
 df = df.merge(janssen, left_on='jurisdiction', right_on='jurisdiction')
 
 
 ## output to csv file
-df.to_csv('~/Documents/GitHub/COVID_Datahub/Pandemic/vaccine_allocation.csv', index=False)
+df.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/vaccine_allocation.csv', index=False)
 
