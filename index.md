@@ -1,6 +1,12 @@
-## Welcome to GitHub Pages
+# Hopkins Population Center: COVID Data Hub
 
-You can use the [editor on GitHub](https://github.com/hpc-datahub/COVID_DataHub/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## About US
+
+The HPC Data Hub is a data service infrastructure of the Hopkins Population Center (HPC). The HPC Data Hub offers U.S. county-level data necessary for population-based social science, epidemiological, medical and public health research on COVID-19 to provide evidence-based, timely policy recommendations for curbing the pandemic.
+
+Timely and effective data on social, economic and health disparities are needed to respond appropriately to the pandemic as local situations change. Drawing from trusted sources, this data hub curates county-level data on the demographic, social and health factors that influence the spread of COVID-19. The data hub also includes data on the status of COVID-19 related policies being rolled out across the country.
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
