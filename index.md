@@ -7,37 +7,27 @@ The HPC Data Hub is a data service infrastructure of the Hopkins Population Cent
 Timely and effective data on social, economic and health disparities are needed to respond appropriately to the pandemic as local situations change. Drawing from trusted sources, this data hub curates county-level data on the demographic, social and health factors that influence the spread of COVID-19. The data hub also includes data on the status of COVID-19 related policies being rolled out across the country.
 
 
+## Data Projects
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[COVID Data Hub](https://github.com/hpc-datahub/COVID_DataHub)
 
-### Markdown
+[Data Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSdX7N4w_OjVd5im6FOqr6nlyBfn2rc2Mqirrq2qPBhfD_02xw/viewform?usp=sf_link)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## News and Announcement
 
-# Header 1
-## Header 2
-### Header 3
+- Phase 3 Release of COVID-19 and Sociodemographic Data (11/2/2020)
+-   The Phase-3 release data replace the Phase-2 data with important additions.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## The HPC Data Hub Team
 
-**Bold** and _Italic_ and `Code` text
+Faculty: Dr. Qingfeng Li (lead), Dr. Alexandre White, Dr. Lingxin Hao
 
-[Link](url) and ![Image](src)
-```
+Students: Xingyun Wu, Apoorv Dayal, Aditya Suru, Jiaolong He, Giuliana Nicolucci-Altman, Gwyneth Wei
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Contact Us
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hpc-datahub/COVID_DataHub/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+3505 N. Charles Street, Baltimore, MD 21218
+hpc@jhu.edu
