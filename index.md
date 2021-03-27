@@ -10,6 +10,9 @@ Timely and effective data on social, economic and health disparities are needed 
 ## Data Projects
 
 [COVID Data Hub](https://github.com/hpc-datahub/COVID_DataHub)
+  - Pandemic
+  - Prepandemic
+  - Unemployment
 
 [Data Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSdX7N4w_OjVd5im6FOqr6nlyBfn2rc2Mqirrq2qPBhfD_02xw/viewform?usp=sf_link)
 
