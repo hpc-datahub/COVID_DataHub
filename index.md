@@ -17,7 +17,7 @@ Timely and effective data on social, economic and health disparities are needed 
 ## News and Announcement
 
 - Phase 3 Release of COVID-19 and Sociodemographic Data (11/2/2020)
--   The Phase-3 release data replace the Phase-2 data with important additions.
+  - The Phase-3 release data replace the Phase-2 data with important additions.
 
 
 ## The HPC Data Hub Team
