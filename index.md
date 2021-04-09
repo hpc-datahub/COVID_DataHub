@@ -48,4 +48,14 @@ hpc@jhu.edu
   gtag('config', 'G-581KJ5TMRV');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-193139839-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-193139839-1');
+</script>
+
 </details>
