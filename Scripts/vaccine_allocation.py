@@ -13,7 +13,7 @@ from datetime import datetime
 import re
 
 # set update date
-dt = '20210330'
+dt = '20210407'
 
 # set data file directory
 file_dir = '~/Documents/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
