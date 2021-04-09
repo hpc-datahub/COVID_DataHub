@@ -35,7 +35,7 @@ Students: Xingyun Wu, Apoorv Dayal, Aditya Suru, Jiaolong He, Giuliana Nicolucci
 3505 N. Charles Street, Baltimore, MD 21218
 hpc@jhu.edu
 
-```html
+```{r html, echo = FALSE} 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-581KJ5TMRV"></script>
 <script>
