@@ -36,7 +36,8 @@ Students: Xingyun Wu, Apoorv Dayal, Aditya Suru, Jiaolong He, Giuliana Nicolucci
 hpc@jhu.edu
 
 
-```html
+<detail><summary> </summary>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-581KJ5TMRV"></script>
 <script>
@@ -46,4 +47,5 @@ hpc@jhu.edu
 
   gtag('config', 'G-581KJ5TMRV');
 </script>
-```
+
+</detail>
