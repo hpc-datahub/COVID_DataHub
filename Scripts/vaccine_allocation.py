@@ -13,10 +13,10 @@ from datetime import datetime
 import re
 
 # set update date
-dt = '20210407'
+dt = '20210413'
 
 # set data file directory
-file_dir = '~/Documents/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
+file_dir = '~/Documents/ra/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
 
 def read_data(filedir, brand, update_date):
     df1 = pd.read_csv(file_dir + brand + '_' + update_date + '.csv')
@@ -102,8 +102,8 @@ moderna.index = range(moderna.shape[0])
 # reorder the columns according to date
 moderna = moderna[sorted(moderna.columns)]
 
-## Janssen
-janssen, janssen_cols = read_data(file_dir, 'Janssen', dt)
+## Janssen (suspended by some states => probably irregular update in the future)
+janssen, janssen_cols = read_data(file_dir, 'Janssen', '20210408')
 # modify column names of dataframe
 janssen.columns = [edit_colname(x, 'janssen') for x in janssen.columns]
 janssen.insert(loc = 0, column = 'jurisdiction', value = janssen.index)

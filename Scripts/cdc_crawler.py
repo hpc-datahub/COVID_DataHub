@@ -23,7 +23,7 @@ driver.get(url)
 
 # make the thread sleep to let the page load fully
 print('Wait time starts')
-time.sleep(120)
+time.sleep(60)
 print('Wait time finished. Start scraping...')
 
 
@@ -35,8 +35,13 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 # check time of update
 time_update = soup.find('div', attrs={'class':'general_note'}).text
 time_update = time_update.split(':', 1)[1].strip()
+print(time_update)
+# save the time of data update (instead of data posted)
+time_update = time_update.split('.')[0]
 time_update = re.sub('\s+', ' ', time_update)
-time_update = datetime.strptime(time_update, '%b %d %Y %H:%M%p').strftime('%Y%m%d')
+time_update = time_update.strip('ET').strip()
+time_update = datetime.strptime(time_update, '%B %d, %Y %H:%M%p').strftime('%Y%m%d')
+
 # see whether updated today
 today = datetime.today()
 today = today.strftime("%Y%m%d")
@@ -57,7 +62,7 @@ if time_update == today:
         info.append(row)
     # output
     df = pd.DataFrame(info[1:], columns=info[0])
-    filename = '/Users/xywu/Documents/HPC_datahub/vaccine/temp_data/vaccine_distribution-'+today+'.csv'
+    filename = '~/Documents/ra/HPC_datahub/vaccine/temp_data/vaccine_distribution-'+today+'.csv'
     df.to_csv(filename, index=False)
     print('Vaccine data saved.')
 else:
