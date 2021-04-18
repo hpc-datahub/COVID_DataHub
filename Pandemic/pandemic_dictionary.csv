@@ -5,13 +5,13 @@
 3,ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,3,3,,
 4,ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,4,4,,
 5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,,
-6,confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,448,20200122,20210408
-7,deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,449,891,20200122,20210408
-0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6,387,20200215,20210302
-1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,388,1151,20200215,20210302
-2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1152,1915,20200215,20210302
-3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1916,2297,20200215,20210302
-4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2298,3061,20200215,20210302
+6,confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,456,20200122,20210416
+7,deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,457,907,20200122,20210416
+0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6,430,20200215,20210414
+1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,431,1280,20200215,20210414
+2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1281,2130,20200215,20210414
+3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2131,2555,20200215,20210414
+4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2556,3405,20200215,20210414
 5,county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,6,6,2018,2018
 6,covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7,96,20200224,20200523
 7,daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,97,186,20200224,20200523
@@ -27,9 +27,9 @@
 17,n_grade_total_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,997,1086,20200224,20200523
 18,n_grade_visitation_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1087,1176,20200224,20200523
 19,weekday_yyyymmdd,Weekday,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1177,1266,20200224,20200523
-20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6,705,20200301,20210303
-21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,356,705,20200301,20210303
-22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,706,1055,20200301,20210303
+20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6,787,20200301,20210415
+21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,397,787,20200301,20210415
+22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,788,1178,20200301,20210415
 0,FatalityRa,Fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,7,7,-1,-1
 1,Confirmedb,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,8,8,-1,-1
 2,DeathsbyPo,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,9,9,-1,-1
@@ -176,15 +176,15 @@
 55,Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,85,85,,
 56,Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,86,86,,
 0,jurisdiction,Jurisdiction,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,3,3,-1,-1
-1,no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,4,21,20201214,20210412
-2,pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv,22,39,20201214,20210412
-3,pfizer_allocation_dose2_yyyymmdd,Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,40,57,20201214,20210412
-4,pfizer_receive_dose1_dose2_simultaneously_yyyymmdd,Pfizer: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,58,75,20201214,20210412
-5,pfizer_sovereign_nation_supplement_yyyymmdd,Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,76,93,20201214,20210412
-6,moderna_allocation_dose1_yyyymmdd,Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,94,110,20201221,20210412
-7,moderna_allocation_dose2_yyyymmdd,Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,111,127,20201221,20210412
-8,moderna_receive_dose1_dose2_simultaneously_yyyymmdd,Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,128,144,20201221,20210412
-9,moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,145,161,20201221,20210412
-10,janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,162,167,20210301,20210412
-11,janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,168,173,20210301,20210412
-12,janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,174,179,20210301,20210412
+1,no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,4,22,20201214,20210419
+2,pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv,23,41,20201214,20210419
+3,pfizer_allocation_dose2_yyyymmdd,Pfizer: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,42,60,20201214,20210419
+4,pfizer_receive_dose1_dose2_simultaneously_yyyymmdd,Pfizer: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,61,79,20201214,20210419
+5,pfizer_sovereign_nation_supplement_yyyymmdd,Pfizer: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,80,98,20201214,20210419
+6,moderna_allocation_dose1_yyyymmdd,Moderna: weekly allocation of dose 1,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,99,116,20201221,20210419
+7,moderna_allocation_dose2_yyyymmdd,Moderna: weekly allocation of dose 2,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,117,134,20201221,20210419
+8,moderna_receive_dose1_dose2_simultaneously_yyyymmdd,Moderna: receive dose 1 and dose 2 simultaneously,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,135,152,20201221,20210419
+9,moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplement Project,https://covid.cdc.gov/covid-data-tracker/#vaccinations,vaccine_allocation.csv,153,170,20201221,20210419
+10,janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,171,176,20210301,20210412
+11,janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,177,182,20210301,20210412
+12,janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv,183,188,20210301,20210412
