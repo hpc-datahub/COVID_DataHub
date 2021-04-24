@@ -26,10 +26,7 @@ print('Wait time starts')
 time.sleep(60)
 print('Wait time finished. Start scraping...')
 
-
 # parse
-#driver.implicitly_wait(120)
-#wait = WebDriverWait(driver, 10)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 # check time of update
