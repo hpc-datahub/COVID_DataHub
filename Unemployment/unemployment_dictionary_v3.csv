@@ -1,0 +1,72 @@
+variable_name,variable label,column position,source
+stfips,State FIPS code,1,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+stabbr,State name abbreviation,2,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+stname,State name,3,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+ctyname,County name,4,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+ctyfips,County FIPS code,5,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+fips,FIPS code of state-county,6,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+laborforce_201901,Total labor force count in 201901,7,https://www.bls.gov/lau/tables.htm
+laborforce_201902,Total labor force count in 201902,8,https://www.bls.gov/lau/tables.htm
+laborforce_201903,Total labor force count in 201903,9,https://www.bls.gov/lau/tables.htm
+laborforce_201904,Total labor force count in 201904,10,https://www.bls.gov/lau/tables.htm
+laborforce_201905,Total labor force count in 201905,11,https://www.bls.gov/lau/tables.htm
+laborforce_201906,Total labor force count in 201906,12,https://www.bls.gov/lau/tables.htm
+laborforce_201907,Total labor force count in 201907,13,https://www.bls.gov/lau/tables.htm
+laborforce_201908,Total labor force count in 201908,14,https://www.bls.gov/lau/tables.htm
+laborforce_201909,Total labor force count in 201909,15,https://www.bls.gov/lau/tables.htm
+laborforce_201910,Total labor force count in 201910,16,https://www.bls.gov/lau/tables.htm
+laborforce_201911,Total labor force count in 201911,17,https://www.bls.gov/lau/tables.htm
+laborforce_201912,Total labor force count in 201912,18,https://www.bls.gov/lau/tables.htm
+laborforce_202001,Total labor force count in 202001,19,https://www.bls.gov/lau/tables.htm
+laborforce_202002,Total labor force count in 202002,20,https://www.bls.gov/lau/tables.htm
+laborforce_202003,Total labor force count in 202003,21,https://www.bls.gov/lau/tables.htm
+laborforce_202004,Total labor force count in 202004,22,https://www.bls.gov/lau/tables.htm
+laborforce_202005,Total labor force count in 202005,23,https://www.bls.gov/lau/tables.htm
+laborforce_202006,Total labor force count in 202006,24,https://www.bls.gov/lau/tables.htm
+laborforce_202007,Total labor force count in 202007,25,https://www.bls.gov/lau/tables.htm
+laborforce_202008,Total labor force count in 202008,26,https://www.bls.gov/lau/tables.htm
+laborforce_202009,Total labor force count in 202009,27,https://www.bls.gov/lau/tables.htm
+laborforce_202010,Total labor force count in 202010,28,https://www.bls.gov/lau/tables.htm
+laborforce_202011,Total labor force count in 202011,29,https://www.bls.gov/lau/tables.htm
+laborforce_202012,Total labor force count in 202012,30,https://www.bls.gov/lau/tables.htm
+laborforce_202101,Total labor force count in 202101,31,https://www.bls.gov/lau/tables.htm
+laborforce_202102,Total labor force count in 202102,32,https://www.bls.gov/lau/tables.htm
+neighbor01_2017,The 1st neighbor county in 2017,33,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor02_2017,The 2nd neighbor county in 2017,34,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor03_2017,The 3rd neighbor county in 2017,35,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor04_2017,The 4th neighbor county in 2017,36,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor05_2017,The 5th neighbor county in 2017,37,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor06_2017,The 6th neighbor county in 2017,38,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor07_2017,The 7th neighbor county in 2017,39,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor08_2017,The 8th neighbor county in 2017,40,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor09_2017,The 9th neighbor county in 2017,41,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor10_2017,The 10th neighbor county in 2017,42,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor11_2017,The 11th neighbor county in 2017,43,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor12_2017,The 12th neighbor county in 2017,44,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+neighbor13_2017,The 13th neighbor county in 2017,45,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/
+unemployment_201901,Unemployment rate in 201901,46,https://www.bls.gov/lau/tables.htm
+unemployment_201902,Unemployment rate in 201902,47,https://www.bls.gov/lau/tables.htm
+unemployment_201903,Unemployment rate in 201903,48,https://www.bls.gov/lau/tables.htm
+unemployment_201904,Unemployment rate in 201904,49,https://www.bls.gov/lau/tables.htm
+unemployment_201905,Unemployment rate in 201905,50,https://www.bls.gov/lau/tables.htm
+unemployment_201906,Unemployment rate in 201906,51,https://www.bls.gov/lau/tables.htm
+unemployment_201907,Unemployment rate in 201907,52,https://www.bls.gov/lau/tables.htm
+unemployment_201908,Unemployment rate in 201908,53,https://www.bls.gov/lau/tables.htm
+unemployment_201909,Unemployment rate in 201909,54,https://www.bls.gov/lau/tables.htm
+unemployment_201910,Unemployment rate in 201910,55,https://www.bls.gov/lau/tables.htm
+unemployment_201911,Unemployment rate in 201911,56,https://www.bls.gov/lau/tables.htm
+unemployment_201912,Unemployment rate in 201912,57,https://www.bls.gov/lau/tables.htm
+unemployment_202001,Unemployment rate in 202001,58,https://www.bls.gov/lau/tables.htm
+unemployment_202002,Unemployment rate in 202002,59,https://www.bls.gov/lau/tables.htm
+unemployment_202003,Unemployment rate in 202003,60,https://www.bls.gov/lau/tables.htm
+unemployment_202004,Unemployment rate in 202004,61,https://www.bls.gov/lau/tables.htm
+unemployment_202005,Unemployment rate in 202005,62,https://www.bls.gov/lau/tables.htm
+unemployment_202006,Unemployment rate in 202006,63,https://www.bls.gov/lau/tables.htm
+unemployment_202007,Unemployment rate in 202007,64,https://www.bls.gov/lau/tables.htm
+unemployment_202008,Unemployment rate in 202008,65,https://www.bls.gov/lau/tables.htm
+unemployment_202009,Unemployment rate in 202009,66,https://www.bls.gov/lau/tables.htm
+unemployment_202010,Unemployment rate in 202010,67,https://www.bls.gov/lau/tables.htm
+unemployment_202011,Unemployment rate in 202011,68,https://www.bls.gov/lau/tables.htm
+unemployment_202012,Unemployment rate in 202012,69,https://www.bls.gov/lau/tables.htm
+unemployment_202101,Unemployment rate in 202101,70,https://www.bls.gov/lau/tables.htm
+unemployment_202102,Unemployment rate in 202102,71,https://www.bls.gov/lau/tables.htm
