@@ -8,7 +8,7 @@ The HPC Data Hub is a data service infrastructure of the Hopkins Population Cent
 
 Timely and effective data on social, economic and health disparities are needed to respond appropriately to the pandemic as local situations change. Drawing from trusted sources, this data hub collects and manages county-level data on sociodemographic and health factors that influence the spread of COVID-19. The data hub also includes data on the status of COVID-19 related policies being rolled out across the country. 
 
-The Phase-4 release data replace the Phase-3 data with important additions (e.g., updated state policies; vaccine distribution and implementation; biweekly state patterns of pandemic patterns by race/ethnicity). The data files and the corresponding dictionary files are coupled in 3 zipped files at https://github.com/hpc-datahub/COVID_DataHub. Click the arrow next to the “Code” tab and choose “download zip” which includes a folder for pandemic time-series data and two zip files: prepandemic.zip and unemployment.zip.
+The Phase-4 release data replace the Phase-3 data with important additions (e.g., updated state policies; vaccine distribution and implementation; biweekly state patterns of pandemic patterns by race/ethnicity). The data files and the corresponding dictionary files are coupled in 3 folders or zipped files at https://github.com/hpc-datahub/COVID_DataHub. Click the arrow next to the “Code” tab and choose “download zip” which includes a folder for pandemic time-series data and two zip files: prepandemic.zip and unemployment.zip.
 
 - **Pandemic** folder includes 4 datafiles in csv format and 1 dictionary file in csv format
     
@@ -25,7 +25,7 @@ The Phase-4 release data replace the Phase-3 data with important additions (e.g.
     - Demographic structure by age, gender and race-ethnicity
     - Prevalence rates of diabetes, HIV, and smoking, conditions associated with more severe COVID-19 symptoms
     
-- **Unemployment** includes 1 datafile in csv format and 1 dictionary file in xlsx format
+- **Unemployment** includes 1 datafile in csv format and 1 dictionary file in csv format
 
     - Monthly unemployment rate and size of labor force from January 2019 (monthly updates when its available at BLS)
     - The county identity of spatial neighbors (for spatial analysis)
