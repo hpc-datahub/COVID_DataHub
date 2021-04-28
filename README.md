@@ -16,6 +16,7 @@ The Phase-4 release data replace the Phase-3 data with important additions (e.g.
     - Time-series data on human mobility and social distancing
     - Timing data on state policy responses
     - Preexisting health care capacity variables
+    - Weekly data on vaccine allocation
 
 - **Prepandemic.zip** includes 1 datafile in csv format and 1 dictionary file in xlsx format, containing the following data
 
