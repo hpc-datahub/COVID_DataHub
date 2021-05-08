@@ -13,7 +13,7 @@ from datetime import datetime
 import re
 
 # set update date
-dt = '20210427'
+dt = '20210505'
 
 # set data file directory
 file_dir = '~/Documents/ra/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
@@ -114,7 +114,7 @@ janssen = janssen[sorted(janssen.columns)]
 
 
 ## merge fips and the three dataframes
-df = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/fips/state_territory_fips.csv')
+df = pd.read_csv('~/Documents/GitHub/COVID_DataHub/FIPS/state_territory_fips.csv')
 df = df.merge(pfizer, left_on = 'stname', right_on = 'jurisdiction')
 df = df.merge(moderna, left_on='jurisdiction', right_on='jurisdiction')
 df = df.merge(janssen, left_on='jurisdiction', right_on='jurisdiction')
