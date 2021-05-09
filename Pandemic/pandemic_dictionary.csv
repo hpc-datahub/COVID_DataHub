@@ -7,11 +7,11 @@
 5,fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,,
 6,confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,477,20200122,20210507
 7,deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,478,949,20200122,20210507
-0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6,430,20200215,20210414
-1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,431,1280,20200215,20210414
-2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1281,2130,20200215,20210414
-3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2131,2555,20200215,20210414
-4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2556,3405,20200215,20210414
+0,grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,6,451,20200215,20210505
+1,parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,452,1343,20200215,20210505
+2,residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1344,2235,20200215,20210505
+3,transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2236,2681,20200215,20210505
+4,workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2682,3573,20200215,20210505
 5,county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,6,6,2018,2018
 6,covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7,96,20200224,20200523
 7,daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,97,186,20200224,20200523
@@ -27,9 +27,9 @@
 17,n_grade_total_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,997,1086,20200224,20200523
 18,n_grade_visitation_yyyymmdd,Corresponding number for letter grade where A = 5 and F = 1,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1087,1176,20200224,20200523
 19,weekday_yyyymmdd,Weekday,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,1177,1266,20200224,20200523
-20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6,787,20200301,20210415
-21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,397,787,20200301,20210415
-22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,788,1178,20200301,20210415
+20,m50_yyyymmdd,The median of the max-distance mobility for all samples in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,6,797,20200301,20210420
+21,m50_index_yyyymmdd,"The percent of normal m50 in the region, with normal m50 defined during 2020-02-17 to 2020-03-07.",https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,402,797,20200301,20210420
+22,samples_yyyymmdd,The number of samples observed in the specified region.,https://github.com/descarteslabs/DL-COVID-19,mobility_descartes.csv,798,1193,20200301,20210420
 0,FatalityRa,Fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,7,7,-1,-1
 1,Confirmedb,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,8,8,-1,-1
 2,DeathsbyPo,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,9,9,-1,-1
@@ -124,57 +124,46 @@
 3,Statewide mandated stay at home order?,Has the state mandated stay at home order,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,4,4,,
 4,Urgency of restrictions,How urgent are the restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,5,5,,
 5,Effective date of executive restriction detailed,Date of emergency policy into effect,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv,6,6,,
-6,State of emergency,Date emergency was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,7,7,,
-7,Closed day cares,Date when daycare were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,9,9,,
-8,Date banned visitors to nursing homes,Date when nursing home visitors were banned,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,11,11,,
-9,Stay at home/ shelter in place,Date when stay at home was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,12,12,,
-10,End/relax stay at home/shelter in place,,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,14,14,,
-11,Religious Gatherings Exempt Without Clear Social Distance Mandate*,Is religious gatherings open / closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,17,17,,
-12,Mandate face mask use by all individuals in public spaces,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,18,18,,
-13,Mandate face mask use by employees in public-facing businesses,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,23,23,,
-14,Alcohol/Liquor Stores Open,Are the alcohol and liquor stores open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,26,26,,
-15,Keep Firearms Sellers Open,Are the firearm sellers open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,29,29,,
-16,Closed restaurants except take out,Are restaurants closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,30,30,,
-17,Reopen restaurants,When restaurants reopen,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,31,31,,
-18,Closed gyms,Are gyms closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,33,33,,
-19,Closed movie theaters,Are movie theatres closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,35,35,,
-20,Reopened movie theaters,When movie theatres are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,36,36,,
-21,Modify Medicaid requirements with 1135 waivers (date of CMS approval),Modify Medicaid requirements with 1135 waivers (date of CMS approval),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,122,122,,
-22,Reopened ACA enrollment using a special enrollment period,Reopened ACA enrollment using a special enrollment period,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,123,123,,
-23,Allow audio-only telehealth,Allow audio-only telehealth,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,125,125,,
-24,Suspended elective medical/dental procedures,Suspended elective medical/dental procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,146,146,,
-25,Resumed elective medical procedures,Resumed elective medical procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,147,147,,
-26,Waived one week waiting period for unemployment insurance,Waived one week waiting period for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,151,151,,
-27,Waive work search requirement for unemployment insurance,Waive work search requirement for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,153,153,,
-28,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,157,157,,
-29,Extend the amount of time an individual can be on unemployment insurance,Extend the amount of time an individual can be on unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,158,158,,
-30,Paid sick leave,Is Paid sick leave present,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,186,186,,
-31,Vaccine allocation phase: Frontline Healthcare Workers,Vaccine allocation phase: Frontline Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,59,59,,
-32,Vaccine allocation phase: Healthcare Service Workers,Vaccine allocation phase: Healthcare Service Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,60,60,,
-33,Vaccine allocation phase: Home Healthcare Workers,Vaccine allocation phase: Home Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,61,61,,
-34,Vaccine allocation phase: Additional Healthcare Workers,Vaccine allocation phase: Additional Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,62,62,,
-35,Vaccine allocation phase: Long-term Care Residents,Vaccine allocation phase: Long-term Care Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,63,63,,
-36,Vaccine allocation phase: EMS Providers,Vaccine allocation phase: EMS Providers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,64,64,,
-37,Vaccine allocation phase: Firefighters,Vaccine allocation phase: Firefighters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,65,65,,
-38,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,66,66,,
-39,Vaccine allocation phase: Correctional Staff,Vaccine allocation phase: Correctional Staff,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,67,67,,
-40,Vaccine allocation phase: Adults Ages 75+,Vaccine allocation phase: Adults Ages 75+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,70,70,,
-41,Vaccine allocation phase: Adults Ages 65+,Vaccine allocation phase: Adults Ages 65+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,71,71,,
-42,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,72,72,,
-43,Vaccine allocation phase: Pre-K-12 School Employees,Vaccine allocation phase: Pre-K-12 School Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,73,73,,
-44,Vaccine allocation phase: Higher Education Employees,Vaccine allocation phase: Higher Education Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,74,74,,
-45,Vaccine allocation phase: Public Transit Workers,Vaccine allocation phase: Public Transit Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,75,75,,
-46,Vaccine allocation phase: Food Supply Workers,Vaccine allocation phase: Food Supply Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,76,76,,
-47,Vaccine allocation phase: Grocery Store Workers,Vaccine allocation phase: Grocery Store Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,77,77,,
-48,Vaccine allocation phase: Frontline Essential Workers,Vaccine allocation phase: Frontline Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,78,78,,
-49,Vaccine allocation phase: Additional Essential Workers,Vaccine allocation phase: Additional Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,79,79,,
-50,Vaccine allocation phase: General Public,Vaccine allocation phase: General Public,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,80,80,,
-51,Prioritize older adults in earlier phase than essential workers,Prioritize older adults in earlier phase than essential workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,81,81,,
-52,Proof of work eligibility requirement for vaccination,Proof of work eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,82,82,,
-53,Proof of age eligibility requirement for vaccination,Proof of age eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,83,83,,
-54,Proof of residency requirement for vaccination,Proof of residency requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,84,84,,
-55,Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,85,85,,
-56,Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,86,86,,
+6,Closed day cares,Date when daycare were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,10,10,,
+7,Date banned visitors to nursing homes,Date when nursing home visitors were banned,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,12,12,,
+8,Stay at home/ shelter in place,Date when stay at home was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,13,13,,
+9,End/relax stay at home/shelter in place,,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,15,15,,
+10,Closed restaurants except take out,Are restaurants closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,33,33,,
+11,Reopen restaurants,When restaurants reopen,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,34,34,,
+12,Closed gyms,Are gyms closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,36,36,,
+13,Closed movie theaters,Are movie theatres closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,38,38,,
+14,Reopened movie theaters,When movie theatres are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,39,39,,
+15,Modify Medicaid requirements with 1135 waivers (date of CMS approval),Modify Medicaid requirements with 1135 waivers (date of CMS approval),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,149,149,,
+16,Reopened ACA enrollment using a special enrollment period,Reopened ACA enrollment using a special enrollment period,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,150,150,,
+17,Allow audio-only telehealth,Allow audio-only telehealth,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,152,152,,
+18,Resumed elective medical procedures,Resumed elective medical procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,176,176,,
+19,Waived one week waiting period for unemployment insurance,Waived one week waiting period for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,181,181,,
+20,Paid sick leave,Is Paid sick leave present,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv,219,219,,
+21,Vaccine allocation phase: Frontline Healthcare Workers,Vaccine allocation phase: Frontline Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,64,64,,
+22,Vaccine allocation phase: Healthcare Service Workers,Vaccine allocation phase: Healthcare Service Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,65,65,,
+23,Vaccine allocation phase: Home Healthcare Workers,Vaccine allocation phase: Home Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,66,66,,
+24,Vaccine allocation phase: Additional Healthcare Workers,Vaccine allocation phase: Additional Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,67,67,,
+25,Vaccine allocation phase: Long-term Care Residents,Vaccine allocation phase: Long-term Care Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,68,68,,
+26,Vaccine allocation phase: EMS Providers,Vaccine allocation phase: EMS Providers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,69,69,,
+27,Vaccine allocation phase: Firefighters,Vaccine allocation phase: Firefighters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,70,70,,
+28,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,71,71,,
+29,Vaccine allocation phase: Correctional Staff,Vaccine allocation phase: Correctional Staff,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,72,72,,
+30,Vaccine allocation phase: Adults Ages 75+,Vaccine allocation phase: Adults Ages 75+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,75,75,,
+31,Vaccine allocation phase: Adults Ages 65+,Vaccine allocation phase: Adults Ages 65+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,76,76,,
+32,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,77,77,,
+33,Vaccine allocation phase: Pre-K-12 School Employees,Vaccine allocation phase: Pre-K-12 School Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,78,78,,
+34,Vaccine allocation phase: Higher Education Employees,Vaccine allocation phase: Higher Education Employees,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,79,79,,
+35,Vaccine allocation phase: Public Transit Workers,Vaccine allocation phase: Public Transit Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,80,80,,
+36,Vaccine allocation phase: Food Supply Workers,Vaccine allocation phase: Food Supply Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,81,81,,
+37,Vaccine allocation phase: Grocery Store Workers,Vaccine allocation phase: Grocery Store Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,82,82,,
+38,Vaccine allocation phase: Frontline Essential Workers,Vaccine allocation phase: Frontline Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,83,83,,
+39,Vaccine allocation phase: Additional Essential Workers,Vaccine allocation phase: Additional Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,84,84,,
+40,Vaccine allocation phase: General Public,Vaccine allocation phase: General Public,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,85,85,,
+41,Proof of work eligibility requirement for vaccination,Proof of work eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,100,100,,
+42,Proof of age eligibility requirement for vaccination,Proof of age eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,101,101,,
+43,Proof of residency requirement for vaccination,Proof of residency requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,102,102,,
+44,Penalty for failure to comply with vaccine distribution requirements,Penalty for failure to comply with vaccine distribution requirements,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,103,103,,
+45,Expanded scope of practice of certain health providers to administer vaccines,Expanded scope of practice of certain health providers to administer vaccines,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv,104,104,,
 0,jurisdiction,Jurisdiction,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,3,3,-1,-1
 1,no_pfizer_because_ultra_cold_requirement_yyyymmdd,No pfizer because ultra-cold requirement,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg,vaccine_allocation.csv,4,25,20201214,20210510
 2,pfizer_allocation_dose1_yyyymmdd,Pfizer: weekly allocation of dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws,vaccine_allocation.csv,26,47,20201214,20210510
