@@ -13,7 +13,7 @@ from datetime import datetime
 import re
 
 # set update date
-dt = '20210505'
+dt = '20210513'
 
 # set data file directory
 file_dir = '~/Documents/ra/HPC_datahub/vaccine/history_raw/COVID-19_Vaccine_Distribution_Allocations_by_Jurisdiction_-_'
@@ -103,7 +103,7 @@ moderna.index = range(moderna.shape[0])
 moderna = moderna[sorted(moderna.columns)]
 
 ## Janssen (suspended by some states => probably irregular update in the future)
-# latest update on Apr 27, the same date as latest update of the other vaccines
+# latest update on May 5
 janssen, janssen_cols = read_data(file_dir, 'Janssen', dt)
 # modify column names of dataframe
 janssen.columns = [edit_colname(x, 'janssen') for x in janssen.columns]
