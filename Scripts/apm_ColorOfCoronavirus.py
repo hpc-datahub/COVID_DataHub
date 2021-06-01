@@ -75,5 +75,6 @@ final = fips.merge(df3, on = ['stfips', 'stname'])
 final = final.merge(df1, on = 'stname', how = 'right')
 list(final.columns)
 
+
 # output
 final.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/ApmColorOfCoronavirus.csv')
