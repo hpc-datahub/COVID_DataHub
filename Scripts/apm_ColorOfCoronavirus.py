@@ -75,6 +75,12 @@ final = fips.merge(df3, on = ['stfips', 'stname'])
 final = final.merge(df1, on = 'stname', how = 'right')
 list(final.columns)
 
+# sum state-level population to fill-in population info for all states
+df3.sum(axis = 0)[2:]
+totalPopn = list(df3.sum(axis = 0))[2:]
+final.iloc[0, 3:8]
+final.iloc[0, 3:8] = totalPopn
+
 
 # output
 final.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/ApmColorOfCoronavirus.csv', index = False)
