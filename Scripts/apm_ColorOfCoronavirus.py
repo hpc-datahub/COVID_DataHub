@@ -22,8 +22,12 @@ fips = pd.read_csv('~/Documents/GitHub/COVID_DataHub/FIPS/state_territory_fips.c
 
 
 ## process df1 (state-level death counts)
+# turn variable names to lower case and rename by including 'death'
+df1.columns = [x.lower() for x in df1.columns]
+df1.rename(columns = {'state': 'stname', 'asian': 'asianDeath', 'black': 'blackDeath',\
+                      'latino': 'hispanicDeath', 'white': 'whiteDeath'}, inplace = True)
 # format the datetime column
-df1['Date'] = df1['Date'].dt.strftime('%Y%m%d')
+df1['date'] = df1['date'].dt.strftime('%Y%m%d')
 # mark 'N' as na
 df1.replace('N', np.nan, inplace = True)
 df1.replace('N!', np.nan, inplace = True)
@@ -34,19 +38,17 @@ df1.iloc[:, 2:9] = df1.iloc[:, 2:9].astype('int')
 # row sum of death counts before dropping unneeded columns
 df1['totalDeathBy'] = df1.iloc[:, 2:9].sum(axis = 1)
 # drop unneeded columns
-df1.drop(labels = ['Indigenous', 'Pacific Islander', 'Other', 'Unknown'], axis = 1, inplace = True)
+df1.drop(labels = ['indigenous', 'pacific islander', 'other', 'unknown'], axis = 1, inplace = True)
 # re-order columns before reshape
-df1 = df1[['State', 'Date', 'totalDeathBy', 'White', 'Black', 'Latino', 'Asian']]
+df1 = df1[['stname', 'date', 'totalDeathBy', 'whiteDeath', 'blackDeath', \
+           'hispanicDeath', 'asianDeath']]
 # sort by state and date before reshape
-df1.sort_values(by = ['State', 'Date'], axis = 0, ascending = True, inplace = True)
+df1.sort_values(by = ['stname', 'date'], axis = 0, ascending = True, inplace = True)
 # reshape from long to wide
-df1 = df1.pivot(index = 'State', columns = 'Date')
+df1 = df1.pivot(index = 'stname', columns = 'date')
 df1.reset_index(inplace = True)
-# sort columns by date (originally by variable after reshape)
-#df1.sort_index(axis = 1, level = 'Date', inplace = True)
 # concate variable names with dates
 df1.columns = [(x[0] + '_' + x[1]).strip('_') for x in df1.columns]
-df1.rename(columns = {'State': 'stname'}, inplace = True)
 
 
 ## process df2 (county-level population from pre-pandemic data to state-level)
