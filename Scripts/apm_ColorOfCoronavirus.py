@@ -77,4 +77,4 @@ list(final.columns)
 
 
 # output
-final.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/ApmColorOfCoronavirus.csv')
+final.to_csv('~/Documents/GitHub/COVID_DataHub/Pandemic/ApmColorOfCoronavirus.csv', index = False)
