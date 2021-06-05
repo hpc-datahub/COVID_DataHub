@@ -1,10 +1,9 @@
 variable name,label,source,file
-Unnamed: 0,Row number,,casesAndDeaths.csv
 stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
 stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
 ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
 ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
-fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
+scfips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv
 confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv
 deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv
 Unnamed: 0,Row number,,mobility*.csv
@@ -217,3 +216,16 @@ moderna_sovereign_nation_supplement_yyyymmdd,Moderna: Sovereign Nation Supplemen
 janssen_allocation_dose1_yyyymmdd,Janssen: weekly allocation dose 1,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
 janssen_receive_dose1_dose2_simultaneously,Janssen: receive dose 1 and dose 2 simultaneously,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
 janssen_sovereign_nation_supplement,Janssen: Sovereign Nation Supplement Project,https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh,vaccine_allocation.csv
+stfips,State FIPS code,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+stabbr,State abbreviation,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+stname,State name,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+total_2018,Total population in 2018,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+hispanic_2018,Hispanic pooulation in 2018,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+nhwhite_2018,Non-Hispanic White population in 2018,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+nhblack_2018,Non-Hispanic Black population in 2018,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+nhasian_2018,Non-Hispanic Asian population in 2018,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+totalDeathBy_yyyymmdd,Cumulative total covid-19 death count,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+whiteDeath_yyyymmdd,Cumulative covid-19 death count for non-Hispanic White,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+blackDeath_yyyymmdd,Cumulative covid-19 death count for non-Hispanic Black,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+hispanicDeath_yyyymmdd,Cumulative covid-19 death count for Hispanic,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
+asianDeath_yyyymmdd,Cumulative covid-19 death count for non-Hispanic Asian,https://www.apmresearchlab.org/covid/deaths-by-race,ApmColorOfCoronavirus.csv
