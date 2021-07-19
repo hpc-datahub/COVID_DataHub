@@ -130,52 +130,42 @@ recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medic
 total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv
 totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv
 totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv
-Unnamed: 0,Row number,,policy.csv
 stfips,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv
 stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv
-ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv
-ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv
-fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,policy.csv
 Restriction details include,Details about restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv
 Statewide mandated stay at home order?,Has the state mandated stay at home order,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv
 Urgency of restrictions,How urgent are the restrictions,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv
 Effective date of executive restriction detailed,Date of emergency policy into effect,https://github.com/govex/COVID-19/tree/master/data_tables,policy.csv
-State of emergency,Date emergency was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Date closed K-12 schools,Date when schools were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+State of emergency issued,Date emergency was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Date closed K-12 public schools,Date when schools were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Closed day cares,Date when daycare were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Date banned visitors to nursing homes,Date when nursing home visitors were banned,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Stay at home/ shelter in place,Date when stay at home was declared,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-End/relax stay at home/shelter in place,,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Closed non-essential businesses,Date when non essential businesses were closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Reopen businesses,When businesses are open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Religious Gatherings Exempt Without Clear Social Distance Mandate*,Is religious gatherings open / closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Mandate face mask use by all individuals in public spaces,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Mandate face mask use by employees in public-facing businesses,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Alcohol/Liquor Stores Open,Are the alcohol and liquor stores open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Keep Firearms Sellers Open,Are the firearm sellers open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+End/relax stay at home/shelter in place,End/relax stay at home/shelter in place,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Religious gatherings exempt without clear social distance mandate*,Is religious gatherings open / closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Face mask mandate in public spaces,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Face mask mandate for employees of public-facing businesses,Is face mask mandated,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Liquor stores remained open,Are the alcohol and liquor stores open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Firearm sellers remained open,Are the firearm sellers open,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Closed restaurants except take out,Are restaurants closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Reopen restaurants,When restaurants reopen,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Closed gyms,Are gyms closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Repened gyms,When gyms are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Reopened gyms,When gyms are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Closed movie theaters,Are movie theatres closed,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Reopened movie theaters,When movie theatres are reopened,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Stop Initiation of Evictions overall or due to COVID related issues,Stop Initiation of Evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Stop enforcement of evictions overall or due to COVID related issues,Stop enforcement of evictions overall or due to COVID related issues,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Renter grace period or use of security deposit to pay rent,Renter grace period or use of security deposit to pay rent,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Order freezing utility shut offs,Order freezing utility shut offs,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Froze mortgage payments,Froze mortgage payments,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Modify Medicaid requirements with 1135 waivers (date of CMS approval),Modify Medicaid requirements with 1135 waivers (date of CMS approval),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Reopened ACA enrollment using a special enrollment period,Reopened ACA enrollment using a special enrollment period,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Allow audio-only telehealth,Allow audio-only telehealth,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Expand Medicaid telehealth coverage,Expand Medicaid telehealth coverage,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Suspended elective medical/dental procedures,Suspended elective medical/dental procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Allow/expand Medicaid telehealth coverage,Expand Medicaid telehealth coverage,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Suspended elective medical procedures,Suspended elective medical/dental procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Resumed elective medical procedures,Resumed elective medical procedures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Waived one week waiting period for unemployment insurance,Waived one week waiting period for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Waive work search requirement for unemployment insurance,Waive work search requirement for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Expand eligibility of unemployment insurance to anyonewho is quarantined and/or taking care of someone who is quarantined,Expand eligibility of unemployment insurance to anyonewho is quarantined and/or taking care of someone who is quarantined,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Expand eligibility of unemployment insurance to those who have lost childcare/school closures,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Extend the amount of time an individual can be on unemployment insurance,Extend the amount of time an individual can be on unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
-Paid sick leave,Is Paid sick leave present,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Waived work search requirement for unemployment insurance,Waive work search requirement for unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Expanded eligibility of unemployment insurance to anyone who is quarantined and/or taking care of someone who is quarantined,Expand eligibility of unemployment insurance to anyonewho is quarantined and/or taking care of someone who is quarantined,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Expanded eligibility of unemployment insurance to those who have lost childcare/school closures,Expand eligibility of unemployment insurance to those who have lost childcare/school closures,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Extended the amount of time an individual can be on unemployment insurance,Extend the amount of time an individual can be on unemployment insurance,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Paid sick leave prior to pandemic,Paid sick leave prior to pandemic,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
+Paid sick leave expansion during pandemic,Paid sick leave expansion during pandemic,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Frontline Healthcare Workers,Vaccine allocation phase: Frontline Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Healthcare Service Workers,Vaccine allocation phase: Healthcare Service Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Home Healthcare Workers,Vaccine allocation phase: Home Healthcare Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
@@ -184,8 +174,9 @@ Vaccine allocation phase: Long-term Care Residents,Vaccine allocation phase: Lon
 Vaccine allocation phase: EMS Providers,Vaccine allocation phase: EMS Providers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Firefighters,Vaccine allocation phase: Firefighters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Law Enforcement & Public Safety Personnel,Vaccine allocation phase: Law Enforcement & Public Safety Personnel,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
-Vaccine allocation phase: Congregate Setting Residents,Vaccine allocation phase: Congregate Setting Residents,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Correctional Staff,Vaccine allocation phase: Correctional Staff,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
+Vaccine allocation phase: People who are Incarcerated,Vaccine allocation phase: People who are Incarcerated,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
+Vaccine allocation phase: Residents of Homeless Shelters,Vaccine allocation phase: Residents of Homeless Shelters,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Adults Ages 75+,Vaccine allocation phase: Adults Ages 75+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Adults Ages 65+,Vaccine allocation phase: Adults Ages 65+,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,Vaccine allocation phase: Adults w/ High-Risk Medical Conditions,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
@@ -197,7 +188,8 @@ Vaccine allocation phase: Grocery Store Workers,Vaccine allocation phase: Grocer
 Vaccine allocation phase: Frontline Essential Workers,Vaccine allocation phase: Frontline Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: Additional Essential Workers,Vaccine allocation phase: Additional Essential Workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Vaccine allocation phase: General Public,Vaccine allocation phase: General Public,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
-Prioritize older adults in earlier phase than essential workers,Prioritize older adults in earlier phase than essential workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
+Adults ages 65+ prioritized ahead of essential workers,Prioritize older adults in earlier phase than essential workers,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
+Prioritization by race/ethnicity,Prioritization by race/ethnicity,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Proof of work eligibility requirement for vaccination,Proof of work eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Proof of age eligibility requirement for vaccination,Proof of age eligibility requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
 Proof of residency requirement for vaccination,Proof of residency requirement for vaccination,https://www.bu.edu/sph/news/articles/2020/tracking-covid-19-policies/,policy.csv
