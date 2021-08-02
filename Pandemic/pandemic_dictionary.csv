@@ -4,8 +4,8 @@ stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/d
 ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,3,3,-1,-1
 ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,4,4,-1,-1
 scfips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,-1,-1
-confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,555,20200122,20210724
-deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,556,1105,20200122,20210724
+confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,563,20200122,20210801
+deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,564,1121,20200122,20210801
 grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,7,521,20200215,20210713
 parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,522,1551,20200215,20210713
 residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1552,2581,20200215,20210713
