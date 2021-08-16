@@ -1,0 +1,22 @@
+variable_name,variable_label,source,start_column,end_column,start_month,end_month
+stfips,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,1,1,,
+stabbr,State name abbreviation,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,2,2,,
+stname,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,3,3,,
+ctyfips,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,4,4,,
+ctyname,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,5,5,,
+fips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,6,6,,
+laborforce_yyyymm,Total labor force count in year yyyy and month mm,https://www.bls.gov/lau/tables.htm,7,36,201901,202106
+neighbor01_2017,The 1st neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,37,37,,
+neighbor02_2017,The 2nd neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,38,38,,
+neighbor03_2017,The 3rd neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,39,39,,
+neighbor04_2017,The 4th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,40,40,,
+neighbor05_2017,The 5th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,41,41,,
+neighbor06_2017,The 6th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,42,42,,
+neighbor07_2017,The 7th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,43,43,,
+neighbor08_2017,The 8th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,44,44,,
+neighbor09_2017,The 9th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,45,45,,
+neighbor10_2017,The 10th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,46,46,,
+neighbor11_2017,The 11th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,47,47,,
+neighbor12_2017,The 12th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,48,48,,
+neighbor13_2017,The 13th neighbor county in 2017,https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/,49,49,,
+unemployment_yyyymm,Unemployment rate in year yyyy and month mm,https://www.bls.gov/lau/tables.htm,50,79,201901,202106
