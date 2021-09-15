@@ -6,11 +6,11 @@ ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018
 scfips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,-1,-1
 confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,607,20200122,20210914
 deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,608,1209,20200122,20210914
-grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,7,556,20200215,20210817
-parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,557,1656,20200215,20210817
-residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1657,2756,20200215,20210817
-transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2757,3306,20200215,20210817
-workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,3307,4406,20200215,20210817
+grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,7,580,20200215,20210910
+parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,581,1728,20200215,20210910
+residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,1729,2876,20200215,20210910
+transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2877,3450,20200215,20210910
+workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,3451,4598,20200215,20210910
 county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7,7,2018,2018
 covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,8,97,20200224,20200523
 daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,98,187,20200224,20200523
