@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 26 12:26:38 2021
+Initially created on Mon Apr 26 12:26:38 2021
+Modified on Mon Jan 31 3:35 2022
+
+Monthly update of BLS unemployment data on the basis of unemployment_v7
+Make unemployment_v8
 
 @author: Xingyun Wu
 """
@@ -10,16 +14,20 @@ import pandas as pd
 import re
 
 
+#######
+# data
+#######
+
 ## read unemployment_v2 data because unemployment_v3 data has some mismatched county names
-df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v4.csv')
+df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v7.csv')
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = 'unemployment_202104', inplace = True)
+df0.drop(columns = ['laborforce_202108', 'unemployment_202108'], inplace = True)
 df0.columns
 
 
 ## read current data
-df1 = pd.read_excel('~/Documents/ra/HPC_datahub/unemployment/laucntycur14_20210802.xlsx',\
+df1 = pd.read_excel('~/Documents/ra/HPC/HPC_datahub/unemployment/laucntycur14_20220131.xlsx',\
                    skiprows = [0, 1, 2, 3, 5, 45072, 45073, 45074],\
                    names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
                             'laborforce', 'employed', 'unemployed', 'unemployment'])
@@ -50,6 +58,7 @@ df2.sort_values(by='fips', inplace = True)
 # reset index as sequence number
 df2.reset_index(drop = True, inplace = True)
 df2.rename({'stname': 'stabbr'}, axis = 1, inplace = True)
+df2.columns
 
 
 ## merge
@@ -78,12 +87,15 @@ fnl.sort_values(by='fips', inplace = True)
 
 
 ## output data
-fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v5.csv', \
+fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v8.csv', \
            index = False, na_rep = '')
 
 
-# get data dictionary
-base_dict = pd.read_csv('~/Documents/ra/HPC_datahub/unemployment/unemployment_base_dictionary.csv')
+#############
+# dictionary
+#############
+    
+base_dict = pd.read_csv('~/Documents/ra/HPC/HPC_datahub/unemployment/unemployment_base_dictionary.csv')
 
 d = {'variable_name': [] , 'start_column': [], 'end_column': [],\
      'start_month': [], 'end_month': []}
@@ -118,5 +130,5 @@ fnl_dict
 fnl_dict = base_dict.merge(fnl_dict, how = 'outer', on = 'variable_name')
 
 # save results
-fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v5.csv',\
+fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v8.csv',\
                 index = False)
