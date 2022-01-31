@@ -4,13 +4,13 @@ stname,State FIPS code,https://www.census.gov/geographies/reference-files/2018/d
 ctyfips,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,3,3,-1,-1
 ctyname,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,4,4,-1,-1
 scfips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,casesAndDeaths.csv,5,5,-1,-1
-confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,739,20200122,20220124
-deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,740,1473,20200122,20220124
-grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,7,700,20200215,20220108
-parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,701,2088,20200215,20220108
-residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2089,3476,20200215,20220108
-transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,3477,4170,20200215,20220108
-workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,4171,5558,20200215,20220108
+confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,6,745,20200122,20220130
+deaths_yyyymmdd,No of deaths on yyyymmdd,https://github.com/CSSEGISandData/COVID-19,casesAndDeaths.csv,746,1485,20200122,20220130
+grocery_yyyymmdd,% increase in grocery stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,7,720,20200215,20220128
+parks_yyyymmdd,% increase in parks stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,721,2148,20200215,20220128
+residential_yyyymmdd,% increase in residential stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,2149,3576,20200215,20220128
+transit_yyyymmdd,% increase in transit stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,3577,4290,20200215,20220128
+workplace_yyyymmdd,% increase in workplace stores area,https://www.google.com/covid19/mobility/ ,mobility_google.csv,4291,5718,20200215,20220128
 county_population_yyyymmdd,The total count of the population for this segment based on 2018 census data,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,7,7,2018,2018
 covid_yyyymmdd,Identifiers whether event date is PRE or POST COVID-19 outbreak in the US <March 8th is the last date of the PRE COVID-19 period>,https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,8,97,20200224,20200523
 daily_distance_diff_yyyymmdd,Change of average distance traveled from baseline (avg. distance traveled for same day of week during non-COVID-19 time period for a specific county),https://www.unacast.com/covid19/social-distancing-scoreboard,mobility_unacast.csv,98,187,20200224,20200523
