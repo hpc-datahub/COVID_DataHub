@@ -1,0 +1,31 @@
+ctyfips
+ctyname
+fips
+Restriction details include
+Statewide mandated stay at home order?
+Urgency of restrictions
+Effective date of executive restriction detailed
+State of emergency
+Date closed K-12 schools
+Closed non-essential businesses
+Reopen businesses
+Religious Gatherings Exempt Without Clear Social Distance Mandate*
+Mandate face mask use by all individuals in public spaces
+Mandate face mask use by employees in public-facing businesses
+Alcohol/Liquor Stores Open
+Keep Firearms Sellers Open
+Repened gyms
+Stop Initiation of Evictions overall or due to COVID related issues
+Stop enforcement of evictions overall or due to COVID related issues
+Renter grace period or use of security deposit to pay rent
+Order freezing utility shut offs
+Froze mortgage payments
+Expand Medicaid telehealth coverage
+Suspended elective medical/dental procedures
+Waive work search requirement for unemployment insurance
+Expand eligibility of unemployment insurance to anyonewho is quarantined and/or taking care of someone who is quarantined
+Expand eligibility of unemployment insurance to those who have lost childcare/school closures
+Extend the amount of time an individual can be on unemployment insurance
+Paid sick leave
+Vaccine allocation phase: Congregate Setting Residents
+Prioritize older adults in earlier phase than essential workers

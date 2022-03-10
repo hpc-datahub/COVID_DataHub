@@ -1,0 +1,89 @@
+,variable name,label,source,file,start column,end column,start date,end date
+0,FatalityRa,Fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,8,8,-1,-1
+1,Confirmedb,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,9,9,-1,-1
+2,DeathsbyPo,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,10,10,-1,-1
+3,PCTPOVALL_,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,11,11,-1,-1
+4,Unemployme,Unemployment rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,12,12,-1,-1
+5,Med_HH_Inc,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,13,13,-1,-1
+6,State_Fata,State fatality rate,https://coronavirus.jhu.edu/us-map,medical_govex.csv,14,14,-1,-1
+7,DateChecke,Date checked,https://coronavirus.jhu.edu/us-map,medical_govex.csv,15,15,-1,-1
+8,EM_type,Type of emergency policy under effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,16,16,-1,-1
+9,EM_date,Date of emergency policy into effect,https://coronavirus.jhu.edu/us-map,medical_govex.csv,17,17,-1,-1
+10,EM_notes,Further notes about emergency policy,https://coronavirus.jhu.edu/us-map,medical_govex.csv,18,18,-1,-1
+11,url,URL for the dashboard (visual charts and graphs),https://coronavirus.jhu.edu/us-map,medical_govex.csv,19,19,-1,-1
+12,Thumbnail,Image thumbnail for the data,https://coronavirus.jhu.edu/us-map,medical_govex.csv,20,20,-1,-1
+13,Confirmed,Coonfirmed cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,9,21,-1,-1
+14,Deaths,Confirmed deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,10,44,-1,-1
+15,Age_85,People with age 85+,https://coronavirus.jhu.edu/us-map,medical_govex.csv,23,23,-1,-1
+16,Age_80_84,People between 80 to 84 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,24,24,-1,-1
+17,Age_75_79,People between 75 to 79 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,25,25,-1,-1
+18,Age_70_74,People between 70 to 74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,26,26,-1,-1
+19,Age_65_69,People between 65 to 69 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,27,27,-1,-1
+20,Beds_Licen,maximum number of beds for which a hospital holds a license to operate; ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,28,28,-1,-1
+21,Beds_Staff,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,29,29,-1,-1
+22,Beds_ICU,"""adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital.""",https://coronavirus.jhu.edu/us-map,medical_govex.csv,30,30,-1,-1
+23,Ventilator,People on ventilator,https://coronavirus.jhu.edu/us-map,medical_govex.csv,31,31,-1,-1
+24,POP_ESTIMA,Estimated population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,32,32,-1,-1
+25,POVALL_201,Not sure,https://coronavirus.jhu.edu/us-map,medical_govex.csv,33,33,201,201
+26,Unemployed,No. of unemployed people,https://coronavirus.jhu.edu/us-map,medical_govex.csv,34,34,-1,-1
+27,Median_Hou,Median Household income,https://coronavirus.jhu.edu/us-map,medical_govex.csv,35,35,-1,-1
+28,Recovered,Recovered cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,36,36,-1,-1
+29,Active,Active cases ,https://coronavirus.jhu.edu/us-map,medical_govex.csv,37,37,-1,-1
+30,State_Conf,Confirmed cases in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,38,38,-1,-1
+31,State_Deat,Confirmed deaths in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,39,39,-1,-1
+32,State_Reco,Recoveries in county,https://coronavirus.jhu.edu/us-map,medical_govex.csv,40,40,-1,-1
+33,State_Test,No. of tests administered in state,https://coronavirus.jhu.edu/us-map,medical_govex.csv,41,41,-1,-1
+34,AgedPop,No of people who are more than 65 years of age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,42,42,-1,-1
+35,NewCases,New cases,https://coronavirus.jhu.edu/us-map,medical_govex.csv,43,43,-1,-1
+36,NewDeaths,New deaths,https://coronavirus.jhu.edu/us-map,medical_govex.csv,44,44,-1,-1
+37,TotalPop,Total county population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,45,45,-1,-1
+38,NonHispWhP,Non hispanic white population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,46,46,-1,-1
+39,BlackPop,Black population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,47,47,-1,-1
+40,AmIndop,American Indian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,48,48,-1,-1
+41,AsianPop,Asian population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,49,49,-1,-1
+42,PacIslPop,Pacific Island population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,50,50,-1,-1
+43,OtherPop,Other population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,51,51,-1,-1
+44,TwoMorPop,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,52,52,-1,-1
+45,HispPop,Hispanic pooulation,https://coronavirus.jhu.edu/us-map,medical_govex.csv,53,53,-1,-1
+46,Wh_Alone,White alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,54,54,-1,-1
+47,Bk_Alone,Black alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,55,55,-1,-1
+48,AI_Alone,American Indian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,56,56,-1,-1
+49,As_Alone,Asian alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,57,57,-1,-1
+50,NH_Alone,NH alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,58,58,-1,-1
+51,SO_Alone,SO alone population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,59,59,-1,-1
+52,Two_More,Two or more population,https://coronavirus.jhu.edu/us-map,medical_govex.csv,60,60,-1,-1
+53,Not_Hisp,Not hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,61,61,-1,-1
+54,Age_Less15,Age <15 year,https://coronavirus.jhu.edu/us-map,medical_govex.csv,62,62,-1,-1
+55,Age_15_24,Age 15-24 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,63,63,-1,-1
+56,Age_25_34,Age 25-34 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,64,64,-1,-1
+57,Age_Over75,Age >75 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,65,65,-1,-1
+58,Agetotal,Total age,https://coronavirus.jhu.edu/us-map,medical_govex.csv,66,66,-1,-1
+59,NonHisp,Non hispanic,https://coronavirus.jhu.edu/us-map,medical_govex.csv,46,67,-1,-1
+60,Age_35_64,Age 35-64 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,68,68,-1,-1
+61,Age_65_74,Age 65-74 years,https://coronavirus.jhu.edu/us-map,medical_govex.csv,69,69,-1,-1
+62,Shape__Area,Shape area,https://coronavirus.jhu.edu/us-map,medical_govex.csv,93,93,-1,-1
+63,Shape__Length,Shape length,https://coronavirus.jhu.edu/us-map,medical_govex.csv,94,94,-1,-1
+64,dataQualityGrade_yyyymmdd,Quality of data grade,https://covidtracking.com/api,medical_covidtracking.csv,18064,18483,20200113,20210307
+65,dateChecked_yyyymmdd,ISO 8601 date of the time we last visited their website.,https://covidtracking.com/api,medical_covidtracking.csv,7984,8403,20200113,20210307
+66,death_yyyymmdd,Total cumulative number of people that have died.,https://covidtracking.com/api,medical_covidtracking.csv,6724,18903,20200113,20210307
+67,deathIncrease_yyyymmdd,Increase in deaths on that day,https://covidtracking.com/api,medical_covidtracking.csv,18484,18903,20200113,20210307
+68,hash_yyyymmdd,A unique ID changed every time the data updates. Survives a cache reset.,https://covidtracking.com/api,medical_covidtracking.csv,19324,19743,20200113,20210307
+69,hospitalized_yyyymmdd,Total cumulative number of people hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,2524,19323,20200113,20210307
+70,hospitalizedCumulative_yyyymmdd,"Total number of individuals that have been hospitalized, including those that have been discharged.",https://covidtracking.com/api,medical_covidtracking.csv,2944,3363,20200113,20210307
+71,hospitalizedCurrently_yyyymmdd,Number of individuals currently hospitalized.,https://covidtracking.com/api,medical_covidtracking.csv,2524,2943,20200113,20210307
+72,hospitalizedIncrease_yyyymmdd,Increase in hospitalizations on that day,https://covidtracking.com/api,medical_covidtracking.csv,18904,19323,20200113,20210307
+73,inIcuCumulative_yyyymmdd,Total number of individuals that have been in the ICU.,https://covidtracking.com/api,medical_covidtracking.csv,3784,4203,20200113,20210307
+74,inIcuCurrently_yyyymmdd,Number of individuals currently in an ICU.,https://covidtracking.com/api,medical_covidtracking.csv,3364,3783,20200113,20210307
+75,lastUpdateEt_yyyymmdd,Time of last update (Eastern time),https://covidtracking.com/api,medical_covidtracking.csv,5464,5883,20200113,20210307
+76,negative_yyyymmdd,Total cumulative negative test results,https://covidtracking.com/api,medical_covidtracking.csv,844,21003,20200113,20210307
+77,negativeIncrease_yyyymmdd,Increase in negative tests on that day,https://covidtracking.com/api,medical_covidtracking.csv,16384,16803,20200113,20210307
+78,onVentilatorCumulative_yyyymmdd,Total people who have been on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,4624,5043,20200113,20210307
+79,onVentilatorCurrently_yyyymmdd,Number of people who are currently on ventilators,https://covidtracking.com/api,medical_covidtracking.csv,4204,4623,20200113,20210307
+80,pending_yyyymmdd,Tests that have been submitted to a lab but no results have been reported yet.,https://covidtracking.com/api,medical_covidtracking.csv,1264,1683,20200113,20210307
+81,posNeg_yyyymmdd,DEPRECATED Renamed to totalTestResults.,https://covidtracking.com/api,medical_covidtracking.csv,17644,18063,20200113,20210307
+82,positive_yyyymmdd,Total cumulative positive test results.,https://covidtracking.com/api,medical_covidtracking.csv,4,21423,20200113,20210307
+83,positiveIncrease_yyyymmdd,Increase in positive cases on that day,https://covidtracking.com/api,medical_covidtracking.csv,15964,16383,20200113,20210307
+84,recovered_yyyymmdd,People who have recovered,https://covidtracking.com/api,medical_covidtracking.csv,5044,5463,20200113,20210307
+85,total_yyyymmdd,DEPRECATED Will be removed in the future. (positive + negative + pending). Pending has been an unstable value and should not count in any totals.,https://covidtracking.com/api,medical_covidtracking.csv,1684,17643,20200113,20210307
+86,totalTestResults_yyyymmdd,Calculated value (positive + negative) of total test results.,https://covidtracking.com/api,medical_covidtracking.csv,1684,17643,20200113,20210307
+87,totalTestResultsIncrease_yyyymmdd,Total increase in number of test results on that day,https://covidtracking.com/api,medical_covidtracking.csv,17224,17643,20200113,20210307
