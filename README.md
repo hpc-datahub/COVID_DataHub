@@ -8,7 +8,7 @@ Timely and effective data on social, economic and health disparities are needed 
 
 The Phase-5 release replaces the Phase-4 data on multiple fronts, including the separation of state-level data from county-level data, and the addition of key variables such as vaccination by age groups and race-ethnic group, and state policy on mask mandate.
 
-The data files and the corresponding dictionary files are coupled in 3 folders on GitHub. The link to the GitHub repository will be displayed upon your completion of the [user registration form](https://docs.google.com/forms/d/e/1FAIpQLScCkT9_jOyNuT-edOrfgkbd8Y3ENtJGCPAKTZ9RtQM5xr_r5g/viewform?usp=sf_link).
+The data files and the corresponding dictionary files are compiled in 3 folders on GitHub. The link to the GitHub repository will be displayed upon your completion of the [user registration form](https://docs.google.com/forms/d/e/1FAIpQLScCkT9_jOyNuT-edOrfgkbd8Y3ENtJGCPAKTZ9RtQM5xr_r5g/viewform?usp=sf_link).
 
 On the GitHub page, click the green “Code” tab and then “Download zip” tab. The downloaded zip file includes 3 folders for pandemic time-series data, unemployment data, and prepandemic data. It also contains 1 folder of our scripts used for data processing and 1 folder for the FIPS code.
 
