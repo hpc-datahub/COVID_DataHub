@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on Mon Jan 31 3:35 2022
+Modified on Fri March 4 17:41 2022
 
-Monthly update of BLS unemployment data on the basis of unemployment_v7
+Monthly update of BLS unemployment data on the basis of unemployment_v8
 Make unemployment_v8
 
 @author: Xingyun Wu
@@ -19,42 +19,46 @@ import re
 #######
 
 ## read unemployment_v2 data because unemployment_v3 data has some mismatched county names
-df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v7.csv')
+df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v8.csv')
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = ['laborforce_202108', 'unemployment_202108'], inplace = True)
+df0.drop(columns = ['laborforce_202111', 'unemployment_202111'], inplace = True)
 df0.columns
+df0.rename(columns = {'fips': 'scfips'}, inplace = True)
 
 
 ## read current data
-df1 = pd.read_excel('~/Documents/ra/HPC/HPC_datahub/unemployment/laucntycur14_20220131.xlsx',\
-                   skiprows = [0, 1, 2, 3, 5, 45072, 45073, 45074],\
-                   names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
-                            'laborforce', 'employed', 'unemployed', 'unemployment'])
+df1 = pd.read_excel('~/Documents/ra/HPC/HPC_datahub/unemployment/laucntycur14_20220304.xlsx',\
+                    skiprows = [0, 1, 2, 3, 5, 45071, 45072, 45073, 45074],\
+                    names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
+                             'laborforce', 'employed', 'unemployed', 'unemployment'])
 df1.columns
+
 # split county-state name column into county name and state name columns
 df1[['ctyname', 'stname']] = df1['loc'].str.split(', ', expand = True)
 # concatenate state fips with county fips
+df1['stfips'] = df1['stfips'].astype('int')
 df1.ctyfips = df1.ctyfips.map("{:03}".format)
-df1['fips'] = df1['stfips'].astype('str') + df1['ctyfips']
+# get state-county fips
+df1['scfips'] = df1['stfips'].astype('str') + df1['ctyfips']
 df1['period'] = df1['period'].str.strip('p').str.strip()
 
 
 ## reshape
-df2 = df1[['stname', 'stfips', 'ctyname', 'ctyfips', 'fips', 'period', \
+df2 = df1[['stfips', 'stname', 'ctyfips', 'ctyname', 'scfips', 'period', \
           'laborforce', 'unemployment']].copy()
 # change format of period
 df2['period'] = pd.to_datetime(df2['period'], format = '%b-%y').dt.strftime('%Y%m')
 # reshape
-df2 = df2.pivot(index = ['stname', 'stfips', 'ctyname', 'ctyfips', 'fips'],\
+df2 = df2.pivot(index = ['stname', 'stfips', 'ctyname', 'ctyfips', 'scfips'],\
                 columns = 'period').reset_index(drop = False)
 # change multi-index after reshape to sinble index
 df2.columns = [(x[0] + '_' + x[1]).strip('_') for x in df2.columns]
 # change column type to prepare merging
-df2['fips'] = df2['fips'].astype('int')
-df2['ctyfips'] = df2['ctyfips'].astype('int64')
+df2['scfips'] = df2['scfips'].astype('int')
+df2['ctyfips'] = df2['ctyfips'].astype('int')
 # sort rows by fips
-df2.sort_values(by='fips', inplace = True)
+df2.sort_values(by='scfips', inplace = True)
 # reset index as sequence number
 df2.reset_index(drop = True, inplace = True)
 df2.rename({'stname': 'stabbr'}, axis = 1, inplace = True)
@@ -64,10 +68,11 @@ df2.columns
 ## merge
 # get rid of duplicate columns => if both occurs in df0 and df2, keep those in df2 (newer)
 col_diff = list(df0.columns.difference(df2.columns))
-col_d0 = ['stfips', 'ctyfips', 'ctyname', 'fips'] + col_diff
+col_diff.remove('stname')
+col_d0 = ['stfips', 'stabbr', 'stname', 'ctyfips', 'ctyname', 'scfips'] + col_diff
 df0 = df0[col_d0]
 # merge df0 and df2
-fnl = df0.merge(df2, how = 'left', on = ['stfips', 'ctyfips', 'fips'])
+fnl = df0.merge(df2, how = 'left', on = ['stfips', 'stabbr', 'ctyfips', 'scfips'])
 fnl.columns
 # see different county names: ctyname_x, ctyname_y
 t = []
@@ -79,15 +84,15 @@ fnl.iloc[t, :][['ctyname_x', 'ctyname_y']]
 fnl.rename({'ctyname_x': 'ctyname'}, axis = 1, inplace = True)
 fnl.drop(columns = 'ctyname_y', inplace = True)
 # reorder columns
-fips_col = ['stfips', 'stabbr', 'stname', 'ctyfips', 'ctyname', 'fips']
+fips_col = ['stfips', 'stabbr', 'stname', 'ctyfips', 'ctyname', 'scfips']
 fnl_col =  fips_col + sorted([x for x in fnl.columns if x not in fips_col])
 fnl = fnl[fnl_col]
 # sort fnl rows by fips to make sure
-fnl.sort_values(by='fips', inplace = True)
+fnl.sort_values(by='scfips', inplace = True)
 
 
 ## output data
-fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v8.csv', \
+fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v9.csv', \
            index = False, na_rep = '')
 
 
@@ -130,5 +135,5 @@ fnl_dict
 fnl_dict = base_dict.merge(fnl_dict, how = 'outer', on = 'variable_name')
 
 # save results
-fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v8.csv',\
+fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v9.csv',\
                 index = False)
