@@ -2,6 +2,9 @@
 
 ## Phase 5 Release of COVID-19 and Sociodemographic Data (3/11/2022)
 
+**Detailed instruction for data download**
+![steps to access HPC COVID-19 data hub](data_access_steps.jpg)
+
 The HPC Data Hub is a data service infrastructure of the Hopkins Population Center (HPC). The HPC Data Hub offers U.S. state-level and county-level data on COVID-19 and sociodemographic data necessary for population-based social science, epidemiological, medical and public health research to provide evidence-based policy recommendations for COVID-19 recovery. 
 
 Timely and effective data on social, economic and health disparities are needed to record the pandemic course. Drawing from trusted sources, this data hub collects and manages state-level and county-level data on sociodemographic and health factors that intertwine to complicate the pandemic trajectory.
