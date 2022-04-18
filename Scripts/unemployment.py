@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on Fri March 4 17:41 2022
+Modified on Mon April 18 12:30 PM 2022
 
-Monthly update of BLS unemployment data on the basis of unemployment_v8
-Make unemployment_v8
+Monthly update of BLS unemployment data on the basis of unemployment_v9
+Make unemployment_v10
 
 @author: Xingyun Wu
 """
@@ -19,17 +19,17 @@ import re
 #######
 
 ## read unemployment_v2 data because unemployment_v3 data has some mismatched county names
-df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v8.csv')
+df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v9.csv')
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = ['laborforce_202111', 'unemployment_202111'], inplace = True)
+df0.drop(columns = ['laborforce_202112', 'unemployment_202112'], inplace = True)
 df0.columns
 df0.rename(columns = {'fips': 'scfips'}, inplace = True)
 
 
 ## read current data
-df1 = pd.read_excel('~/Documents/ra/HPC/HPC_datahub/unemployment/laucntycur14_20220304.xlsx',\
-                    skiprows = [0, 1, 2, 3, 5, 45071, 45072, 45073, 45074],\
+df1 = pd.read_excel('~/Documents/ra/HPC/HPC_datahub/unemployment/laucntycur14_20220418.xlsx',\
+                    skiprows = [0, 1, 2, 3, 5, 45086, 45087, 45088],\
                     names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
                              'laborforce', 'employed', 'unemployed', 'unemployment'])
 df1.columns
@@ -92,7 +92,7 @@ fnl.sort_values(by='scfips', inplace = True)
 
 
 ## output data
-fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v9.csv', \
+fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v10.csv', \
            index = False, na_rep = '')
 
 
@@ -135,5 +135,5 @@ fnl_dict
 fnl_dict = base_dict.merge(fnl_dict, how = 'outer', on = 'variable_name')
 
 # save results
-fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v9.csv',\
+fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v10.csv',\
                 index = False)
