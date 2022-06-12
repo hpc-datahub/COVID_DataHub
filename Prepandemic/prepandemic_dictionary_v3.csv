@@ -1,0 +1,100 @@
+variable_name,label,source,original_document,column
+scfips,FIPS code of state-county,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,,1.0
+stname,State name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,,2.0
+stfips,State FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,,3.0
+ctyname,County name,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,,4.0
+ctyfips,County FIPS code,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html,,5.0
+medexp,Is the medicaid expansion state since 2014? 1_Yes 0_No,https://www.census.gov/data/tables/2018/demo/health-insurance/p60-264.html,US_state_uninsured.doc,6.0
+uninsured_2017,"Without health insurance in 2017, prop.",https://www.census.gov/data/tables/2018/demo/health-insurance/p60-264.html,US_state_uninsured.doc,7.0
+agiprop1_2017,"Adjusted gross income group under $1 prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,8.0
+agiprop2_2017,"Adjusted gross income group $[1,10000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,9.0
+agiprop3_2017,"Adjusted gross income group $[10000,25000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,10.0
+agiprop4_2017,"Adjusted gross income group $[25000,50000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,11.0
+agiprop5_2017,"Adjusted gross income group $[50000,75000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,12.0
+agiprop6_2017,"Adjusted gross income group $[75000,10000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,13.0
+agiprop7_2017,"Adjusted gross income group $[100000,200000) prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,14.0
+agiprop8_2017,"Adjusted gross income group $200000 and more prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,15.0
+agiprop9_2017,"Individuals without tax filing prop. in 2017, denominator: age 15+",https://www.irs.gov/statistics/soi-tax-stats-county-data-2017,US_county_tax_filling.doc,16.0
+rmortality_2018,"Crude death rate of respiratory diseases in 2018, # in 100,000",https://wonder.cdc.gov/ucd-icd10.html,US_county_mortality.doc,17.0
+cmortality_2018,"Crude death rate of cardiovascular diseases in 2018, # in 100,000",https://wonder.cdc.gov/ucd-icd10.html,US_county_mortality.doc,18.0
+nmortality_2018,"Crude death rate of neoplasm in 2018, # in 100,000",https://wonder.cdc.gov/ucd-icd10.html,US_county_mortality.doc,19.0
+dmortality_2018,"Crude death rate of diabetes in 2018, # in 100,000",https://wonder.cdc.gov/ucd-icd10.html,US_county_mortality.doc,20.0
+mmortality_2018,"Crude death rate of mental diseases in 2018, # in 100,000",https://wonder.cdc.gov/ucd-icd10.html,US_county_mortality.doc,21.0
+houseper_2018,# individual per housing unit in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-total-housing-units.html,US_county_housing_density.doc,22.0
+popdensity_2018,"Population density, # people per km2 in 2018",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=3cfa5a57e21b4cd899cbfcd8da540e98,US_county_Pop_density.doc,23.0
+gdp_2018,"Total GDP in 2018, Unit: thousands doller",https://www.bea.gov/news/2019/local-area-gross-domestic-product-2018,US_county_gdp.doc,24.0
+outmig2013_2017,Outmigrants from 2013 to 2017,https://www.census.gov/content/census/en/data/tables/2017/demo/geographic-mobility/county-to-county-migration-2013-2017.html,US_county_migration.doc,25.0
+inmig2013_2017,Inmigrants from 2013 to 2017,https://www.census.gov/content/census/en/data/tables/2017/demo/geographic-mobility/county-to-county-migration-2013-2017.html,US_county_migration.doc,26.0
+tot_2018,Total pop. Count in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,27.0
+male_2018,male prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,28.0
+ageg1_2018,age 0-4 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,29.0
+ageg2_2018,age 5-9 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,30.0
+ageg3_2018,age 10-14 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,31.0
+ageg4_2018,age 15-19 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,32.0
+ageg5_2018,age 20-24 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,33.0
+ageg6_2018,age 25-29 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,34.0
+ageg7_2018,age 30-34 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,35.0
+ageg8_2018,age 35-39 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,36.0
+ageg9_2018,age 40-44 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,37.0
+ageg10_2018,age 45-49 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,38.0
+ageg11_2018,age 50-54 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,39.0
+ageg12_2018,age 55-59 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,40.0
+ageg13_2018,age 60-64 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,41.0
+ageg14_2018,age 65-69 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,42.0
+ageg15_2018,age 70-74 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,43.0
+ageg16_2018,age 75-79 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,44.0
+ageg17_2018,age 80-84 prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,45.0
+ageg18_2018,age 85+ prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,46.0
+hispanic_2018,Hispanic prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,47.0
+nhwhite_2018,Not-Hispanic White alone prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,48.0
+nhblack_2018,Not-Hispanic Black alone prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,49.0
+nhindian_2018,Not-Hispanic American Indian and Alaska Native prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,50.0
+nhasian_2018,Not-Hispanic Asian alone prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,51.0
+nhhawaii_2018,Not-Hispanic Native Hawaiian and Other Pacific Islander prop. in 2018,https://www.census.gov/content/census/en/data/tables/time-series/demo/popest/2010s-counties-detail.html,US_county_Pop.doc,52.0
+oldprop,Prop. of old(65+) people below the poverty line based on ACS(2014-18),https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=44883cd255c14e6386199acb802e1dbd,US_county_poverty.doc,53.0
+povprop,Prop. of people below the poverty line based on ACS(2014-18),https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=44883cd255c14e6386199acb802e1dbd,US_county_poverty.doc,54.0
+hincgroup1,"Prop. of Households whose income less than $10,000 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,55.0
+hincgroup2,"Prop. of Households whose income was $10,000 to $14,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,56.0
+hincgroup3,"Prop. of Households whose income was $15,000 to $19,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,57.0
+hincgroup4,"Prop. of Households whose income was $20,000 to $24,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,58.0
+hincgroup5,"Prop. of Households whose income was $25,000 to $29,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,59.0
+hincgroup6,"Prop. of Households whose income was $30,000 to $34,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,60.0
+hincgroup7,"Prop. of Households whose income was $35,000 to $39,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,61.0
+hincgroup8,"Prop. of Households whose income was $40,000 to $44,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,62.0
+hincgroup9,"Prop. of Households whose income was $45,000 to $49,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,63.0
+hincgroup10,"Prop. of Households whose income was $50,000 to $59,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,64.0
+hincgroup11,"Prop. of Households whose income was $60,000 to $74,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,65.0
+hincgroup12,"Prop. of Households whose income was $75,000 to $99,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,66.0
+hincgroup13,"Prop. of Households whose income was $100,000 to $124,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,67.0
+hincgroup14,"Prop. of Households whose income was $125,000 to $149,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,68.0
+hincgroup15,"Prop. of Households whose income was $150,000 to $199,999 based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,69.0
+hincgroup16,"Prop. of Households whose income was $200,000 or more based on ACS(2014-18)",https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=9bb063b40e824c4299ccb26d72519922,US_county_household_income.doc,70.0
+languge,Prop. of people not proficient in English based on ACS(2014-18),https://www.countyhealthrankings.org,US_county_social_determinants.doc,71.0
+diabetes_2016,Prop. of adults aged 20 and above with diagnosed diabetes in 2016,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-outcomes/quality-of-life/diabetes,US_county_social_determinants.doc,72.0
+association_2017,Count. of associations in 2017,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/family-social-support/social-associations,US_county_social_determinants.doc,73.0
+associationrate_2017,"Association Rate in 2017, # per 10,000 people",https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/family-social-support/social-associations,US_county_social_determinants.doc,74.0
+dissimwb,Dissimilarity Index for black-white residential segregation across census tracks,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/family-social-support/residential-segregation-blackwhite,US_county_social_determinants.doc,75.0
+dissimwn,Dissimilarity Index for white-nonwh residential segregation across census tracks,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/family-social-support/residential-segregation-non-whitewhite,US_county_social_determinants.doc,76.0
+smoker_2017,Prop. of smoker in 2017,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/tobacco-use/adult-smoking,US_county_social_determinants.doc,77.0
+hiv_2016,"HIV Prevalence Rate in 2016, # per 100,000 people",https://gis.cdc.gov/grasp/nchhstpatlas/main.html?value=atlas,US_county_social_determinants.doc,78.0
+Population density per square miles,Population density per square miles,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,79.0
+Population 2018 ,Population 2018 ,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,80.0
+Square Miles,Square Miles,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,81.0
+Number Homeless (2019),Number Homeless (2019),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,82.0
+Percent Unemployed (2018),Percent Unemployed (2018),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,83.0
+Percent living under the federal poverty line (2018),Percent living under the federal poverty line (2018),https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,84.0
+Percent at risk for serious illness due to COVID,Percent at risk for serious illness due to COVID,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,85.0
+All-cause deaths 2018,All-cause deaths 2018,https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/,Prepandemic_v2.csv,86.0
+Drinking_Water_Violations,Drinking_Water_Violations,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,87.0
+Drinking_Water_Violations_Z-Score,Drinking_Water_Violations_Z-Score,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,88.0
+PS-GWPop_x,PS-GWPop_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,89.0
+PS-SWPop_x,PS-SWPop_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,90.0
+PS-TOPop_x,PS-TOPop_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,91.0
+PS-WGWTo,PS-WGWTo,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,92.0
+PS-WFrTo,PS-WFrTo,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,93.0
+PS-Wtotl_x,PS-Wtotl_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,94.0
+DO-SSPop_x,DO-SSPop_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,95.0
+DO-WFrTo_x,DO-WFrTo_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,96.0
+DO-PSDel_x,DO-PSDel_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,97.0
+DO-PSPCp_x,DO-PSPCp_x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,98.0
+DO-WDelv _x,DO-WDelv _x,https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/drinking-water-violations,water.csv,99.0
