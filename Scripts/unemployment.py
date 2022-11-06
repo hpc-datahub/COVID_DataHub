@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on Mon October 10 10:14 AM 2022
+Modified on Mon November 7 10:14 AM 2022
 
-Monthly update of BLS unemployment data on the basis of unemployment_v13
-Make unemployment_v14
+Monthly update of BLS unemployment data on the basis of unemployment_v14
+Make unemployment_v15
 
 @author: Xingyun Wu
 """
@@ -19,17 +19,17 @@ import re
 #######
 
 ## read unemployment_v2 data because unemployment_v3 data has some mismatched county names
-df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v13.csv')
+df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v14.csv')
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = ['laborforce_202202', 'unemployment_202202'], inplace = True)
+df0.drop(columns = ['laborforce_202208', 'unemployment_202208'], inplace = True)
 df0.columns
 df0.rename(columns = {'fips': 'scfips'}, inplace = True)
 
 
 ## read current data
-df1 = pd.read_excel('OneDrive - Johns Hopkins/HPC_own/HPC_datahub/unemployment/laucntycur14_20221010.xlsx',\
-                    skiprows = [0, 1, 2, 3, 5, 45086, 45087, 45088],\
+df1 = pd.read_excel('OneDrive - Johns Hopkins/HPC_own/HPC_datahub/unemployment/laucntycur14_20221106.xlsx',\
+                    skiprows = [0, 1, 2, 3, 5, 45086, 45087, 45088, 45089],\
                     names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
                              'laborforce', 'employed', 'unemployed', 'unemployment'])
 df1.columns
@@ -90,10 +90,12 @@ fnl_col =  fips_col + sorted([x for x in fnl.columns if x not in fips_col])
 fnl = fnl[fnl_col]
 # sort fnl rows by fips to make sure
 fnl.sort_values(by='scfips', inplace = True)
+# check columns after merging
+list(fnl.columns)
 
 
 ## output data
-fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v14.csv', \
+fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v15.csv', \
            index = False, na_rep = '')
 
 
@@ -136,5 +138,5 @@ fnl_dict
 fnl_dict = base_dict.merge(fnl_dict, how = 'outer', on = 'variable_name')
 
 # save results
-fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v14.csv',\
+fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v15.csv',\
                 index = False)
