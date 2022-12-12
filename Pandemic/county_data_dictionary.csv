@@ -6,11 +6,11 @@ ctyfips,County name,county_casesAndDeaths.csv,cases and deaths,Census,https://ww
 ctyname,County FIPS code,county_casesAndDeaths.csv,cases and deaths,Census,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,5,5,-1,-1,casesAndDeaths.csv
 scfips,FIPS code of state-county,county_casesAndDeaths.csv,cases and deaths,Census,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,6,6,-1,-1,casesAndDeaths.csv
 urbanrural,NCHS urban-rural classification,county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,7,7,-1,-1,
-confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,county_casesAndDeaths.csv,cases and deaths,CSSE,https://github.com/CSSEGISandData/COVID-19,8,1055,20200122,20221204,casesAndDeaths.csv
-deaths_yyyymmdd,No of deaths on yyyymmdd,county_casesAndDeaths.csv,cases and deaths,CSSE,https://github.com/CSSEGISandData/COVID-19,1056,2103,20200122,20221204,casesAndDeaths.csv
-death_startdate,First date of data period,county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2104,2104,-1,-1,
-death_all_20221126,Cumulative deaths from all causes as of July 28 2021,county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2106,2106,-1,-1,
-death_covid_20221126,"Cumulative deaths from COVID-19 as of July 28, 2021",county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2105,2105,-1,-1,
+confirmed_cases_yyyymmdd,No of confirmed cases on yyyymmdd,county_casesAndDeaths.csv,cases and deaths,CSSE,https://github.com/CSSEGISandData/COVID-19,8,1062,20200122,20221211,casesAndDeaths.csv
+deaths_yyyymmdd,No of deaths on yyyymmdd,county_casesAndDeaths.csv,cases and deaths,CSSE,https://github.com/CSSEGISandData/COVID-19,1063,2117,20200122,20221211,casesAndDeaths.csv
+death_startdate,First date of data period,county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2118,2118,-1,-1,
+death_all_20221203,Cumulative deaths from all causes as of July 28 2021,county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2120,2120,-1,-1,
+death_covid_20221203,"Cumulative deaths from COVID-19 as of July 28, 2021",county_casesAndDeaths.csv,cases and deaths,CDC,https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy,2119,2119,-1,-1,
 stfips,State name,county_vaccination.csv,vaccination,CDC,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,1,1,-1,-1,
 stabbr,State abbreviation,county_vaccination.csv,vaccination,CDC,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,2,2,-1,-1,
 stname,State FIPS code,county_vaccination.csv,vaccination,CDC,https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html ,3,3,-1,-1,
