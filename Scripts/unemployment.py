@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on Mon December 11:49 AM 2022
+Modified on Mon Jan 11:22 AM 2023
 
-Monthly update of BLS unemployment data on the basis of unemployment_v15
-Make unemployment_v16
+Monthly update of BLS unemployment data on the basis of unemployment_v16
+Make unemployment_v17
 
 @author: Xingyun Wu
 """
@@ -14,21 +14,31 @@ import pandas as pd
 import re
 
 
+###########
+# initiate
+###########
+
+datadir = 'OneDrive - Johns Hopkins/HPC_own/HPC_datahub/unemployment/'
+outdir = '~/Documents/GitHub/COVID_DataHub/Unemployment/'
+version = 17
+date = 20230109
+
+
 #######
 # data
 #######
 
-## read unemployment_v2 data because unemployment_v3 data has some mismatched county names
-df0 = pd.read_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v15.csv')
+## read processed unemployment data from last month
+df0 = pd.read_csv(outdir + 'unemployment_v' + str(version - 1) + '.csv')
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = ['laborforce_202209', 'unemployment_202209'], inplace = True)
+df0.drop(columns = ['laborforce_202210', 'unemployment_202210'], inplace = True)
 df0.columns
 df0.rename(columns = {'fips': 'scfips'}, inplace = True)
 
 
 ## read current data
-df1 = pd.read_excel('OneDrive - Johns Hopkins/HPC_own/HPC_datahub/unemployment/laucntycur14_20221205.xlsx',\
+df1 = pd.read_excel(datadir + 'laucntycur14_' + str(date) + '.xlsx',\
                     skiprows = [0, 1, 2, 3, 5, 45086, 45087, 45088, 45089],\
                     names = ['laus_code', 'stfips', 'ctyfips', 'loc', 'period',\
                              'laborforce', 'employed', 'unemployed', 'unemployment'])
@@ -83,7 +93,8 @@ t = []
 for i in range(fnl.shape[0]):
     if fnl.ctyname_x[i] != fnl.ctyname_y[i]:
         t.append(i)
-fnl.iloc[t, :][['ctyname_x', 'ctyname_y']]
+fnl.loc[t, ['ctyname_x', 'ctyname_y']]
+fnl.iloc[t, :][['ctyname_x', 'ctyname_y']] # inspect
 # keep the original county name
 fnl.rename({'ctyname_x': 'ctyname'}, axis = 1, inplace = True)
 fnl.drop(columns = 'ctyname_y', inplace = True)
@@ -98,7 +109,7 @@ list(fnl.columns)
 
 
 ## output data
-fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v16.csv', \
+fnl.to_csv(outdir + 'unemployment_v' + str(version) + '.csv', \
            index = False, na_rep = '')
 
 
@@ -106,7 +117,7 @@ fnl.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_v16.csv',
 # dictionary
 #############
     
-base_dict = pd.read_csv('OneDrive - Johns Hopkins/HPC_own/HPC_datahub/unemployment/unemployment_base_dictionary.csv')
+base_dict = pd.read_csv(datadir + 'unemployment_base_dictionary.csv')
 
 d = {'variable_name': [] , 'start_column': [], 'end_column': [],\
      'start_month': [], 'end_month': []}
@@ -141,5 +152,5 @@ fnl_dict
 fnl_dict = base_dict.merge(fnl_dict, how = 'outer', on = 'variable_name')
 
 # save results
-fnl_dict.to_csv('~/Documents/GitHub/COVID_DataHub/Unemployment/unemployment_dictionary_v16.csv',\
+fnl_dict.to_csv(outdir + 'unemployment_dictionary_v' + str(version) + '.csv',\
                 index = False)
