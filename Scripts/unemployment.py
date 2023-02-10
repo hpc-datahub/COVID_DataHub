@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on 2023-01-19, Yifeng Wan
+Modified on 2023-02-10, Yifeng Wan
 
-Monthly update of BLS unemployment data on the basis of unemployment_v16
-Make unemployment_v17
+Monthly update of BLS unemployment data on the basis of unemployment_v17
+Make unemployment_v18
 
 @author: Xingyun Wu
 """
@@ -21,7 +21,7 @@ import os
 datadir = '~/Library/CloudStorage/OneDrive-JohnsHopkins/HPC_datahub/unemployment/'
 outdir = '../Unemployment/'
 version = 18
-date = 20230109
+date = 20230210
 
 
 #######
@@ -33,7 +33,7 @@ dir_ = outdir + 'unemployment_v' + str(version - 1) + '.csv'
 df0 = pd.read_csv(os.path.join(os.path.dirname(__file__), dir_)) # current file path
 df0.columns
 # drop the last month in df0 because the last month is always preliminary data
-df0.drop(columns = ['laborforce_202210', 'unemployment_202210'], inplace = True)
+df0.drop(columns = ['laborforce_202211', 'unemployment_202211'], inplace = True)
 df0.columns
 df0.rename(columns = {'fips': 'scfips'}, inplace = True)
 
