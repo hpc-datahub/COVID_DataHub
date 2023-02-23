@@ -1,0 +1,5 @@
+
+
+- state_county_fips_pre2020.csv, FIPS before 2020 [2018, 2019]
+- state_county_fips_post2020.csv, FIPS after 2020 [2020, 2021]
+- Main changes: (Pre-2020) Valdez-Cordova Census Area, Alaska (02-261) --(split)--> Chugach Census Area (02-063) and Copper River Census Area (02-066), effective January 02, 2019.
