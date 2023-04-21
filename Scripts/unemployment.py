@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Initially created on Mon Apr 26 12:26:38 2021
-Modified on 2023-02-10, Yifeng Wan
+Modified on 2023-04-20, Yifeng Wan
 
 Monthly update of BLS unemployment data on the basis of unemployment_v17
 Make unemployment_v18
@@ -20,8 +20,8 @@ import os
 
 datadir = '~/Library/CloudStorage/OneDrive-JohnsHopkins/HPC_datahub/unemployment/'
 outdir = '../Unemployment/'
-version = 18
-date = 20230210
+version = 19
+date = 20230420
 
 
 #######
